@@ -1,32 +1,54 @@
 <template>
 	<v-app>
-		<v-toolbar app>
-			<v-toolbar-title class="headline text-uppercase">
-				<span>Vuetify</span> <span class="font-weight-light">MATERIAL DESIGN</span>
-			</v-toolbar-title>
-			<v-spacer></v-spacer>
-			<v-btn flat href="https://github.com/vuetifyjs/vuetify/releases/latest" target="_blank">
-				<span class="mr-2">Latest Release</span>
-				<v-icon>open_in_new</v-icon>
-			</v-btn>
-		</v-toolbar>
+		<v-responsive id='welcome' class='sectionBG' height='100vh'>
+			<v-container fill-height>
+				<v-layout align-center>
+				<v-flex xs12 text-xs-center>
+					<v-avatar size='256px' tile>
+					<img src='./assets/logo.svg' alt='Logo'>
+					</v-avatar>
 
-		<v-content> <HelloWorld /> </v-content>
+					<h2 class='ma-3 mt-4 text' color='grey darken-4'>Coming Soon...</h2>
+					<v-btn flat large href='https://github.com/tdemapp' color='grey darken-4' class='sourceBtn text'>
+						<v-icon left v-html='$vuetify.icons.github' />
+						<span>GitHub</span>
+					</v-btn>
+				</v-flex>
+				</v-layout>
+			</v-container>
+		</v-responsive>
 	</v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-
 export default {
 	name: 'App',
-	components: {
-		HelloWorld,
-	},
-	data() {
-		return {
-			//
-		};
-	},
 };
 </script>
+
+<style>
+@import url("./feather.css");
+
+::-webkit-scrollbar { 
+	display: none; 
+}
+html,
+body,
+.theme--light.application {
+	background-color: #fafcff!important;
+	margin: 0;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif!important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition: all 0.5s!important;
+	transition: all 0.5s!important;
+}
+.text {
+	font-weight: 300!important;
+	letter-spacing: .20em!important;
+	text-transform: uppercase;
+}
+.text {
+	border-radius: 6px!important;
+}
+</style>
