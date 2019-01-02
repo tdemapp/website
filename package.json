@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "prettier": "prettier --config .prettierrc.json --write \"src/**/*.{js,css,vue}\""
+    "prettier": "prettier --config .prettierrc.json --write \"src/**/*.{js,css,vue}\"",
+    "now-build": "vue-cli-service build"
   },
   "dependencies": {
     "vue": "^2.5.21",

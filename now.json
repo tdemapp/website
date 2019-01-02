@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "tdem-app",
+  "alias": "tdem.app",
+  "public": true,
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build" }
+  ]
+}
