@@ -13,40 +13,27 @@
 
 ## Development:
 
-> Clone and install dependencies
 ```shell
+# Clone
 $ git clone https://github.com/tdemapp/website.git tdem-app
 $ cd tdem-app/
+
+# Install dependencies
 $ npm install # yarn
-```
 
-> Running development server
-```shell
-# Chrome
+# Running development server
 $ npm run dev # yarn dev
-```
 
-> Building for production
-```shell
-# Chrome
+# Building for production
 $ npm run build # yarn build
-```
 
-> Running tests
-```shell
-# Chrome
+# Running tests
 $ npm run test # yarn test
-```
 
-> Linting
-```shell
-# Chrome
+# Linting
 $ npm run lint # yarn lint
-```
 
-> Running prettier
-```shell
-# Chrome
+# Running prettier
 $ npm run prettier # yarn prettier
 ```
 
