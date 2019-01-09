@@ -15,6 +15,6 @@ Vue.use(Vuetify, {
 	},
 	iconfont: 'feather',
 	icons: {
-		github: 'feather-github'
-	}
+		github: 'feather-github',
+	},
 });
