@@ -60,4 +60,7 @@ body,
 .text {
 	border-radius: 6px !important;
 }
+.v-btn {
+	border-radius: 0 !important;
+}
 </style>
