@@ -11,13 +11,17 @@
   <br />
 </div>
 
-## Development:
+## 🚀 Development:
 
+Clone: 
 ```shell
 # Clone
 $ git clone https://github.com/tdemapp/website.git tdem-app
 $ cd tdem-app/
+```
 
+Running:
+```shell
 # Install dependencies
 $ npm install # yarn
 
@@ -25,18 +29,12 @@ $ npm install # yarn
 $ npm run dev # yarn dev
 
 # Building for production
-$ npm run build # yarn build
-
-# Running tests
-$ npm run test # yarn test
-
-# Linting
-$ npm run lint # yarn lint
+$ npm run generate # yarn generate
 
 # Running prettier
 $ npm run prettier # yarn prettier
 ```
 
-## License:
+## 📄 License:
 
 MIT © [Ben Dixon](https://github.com/tdemapp/website/blob/master/LICENSE)
