@@ -1,53 +1,46 @@
 <template>
-	<v-layout row wrap align-center justify-center>
-		<v-flex xs12 sm12 md6 lg6 xl4>
-			<v-card light class="elevation-12">
-				<v-card-title class="grey darken-4">
-					<v-layout row wrap align-center justify-center>
-						<v-avatar tile size="256px">
-							<IconLogo />
-						</v-avatar>
-					</v-layout>
-
-					<h1 class="ma-4 mt-4 white--text text-uppercase text-spaced text-xs-center font-weight-thin display-1">
+	<!-- <v-responsive height="100%" class="transparent"> -->
+		<v-layout row wrap align-center justify-center>
+			<v-flex xs12 sm12 md6 lg6 xl4>
+				<v-card class="transparent elevation-0">
+					<v-card-text
+						class="mt-4 mb-0 text-spaced text-xs-center font-weight-black headline"
+						style="letter-spacing: 12px!important;"
+					>
 						TweetDeck Extension Manager
-					</h1>
-				</v-card-title>
+					</v-card-text>
 
-				<v-card-text>
-					<h4 class="ma-3 mt-2 grey--text--darken-4 text-uppercase text-spaced text-xs-center font-weight-black">
+					<v-card-text
+						class="mt-0 mb-4 text-spaced text-xs-center font-weight-thin sub-heading"
+						style="letter-spacing: 7px!important;"
+					>
 						Install and manage extensions for TweetDeck
-					</h4>
-				</v-card-text>
+					</v-card-text>
 
-				<v-card-actions>
-					<v-btn flat large block color="blue">
-						<IconChrome class="mr-2 icon chrome" />
-						Chrome
-					</v-btn>
-					<v-btn flat large block color="orange darken-3">
-						<IconFirefox class="mr-2 icon firefox" />
-						Firefox
-					</v-btn>
-					<v-btn flat large block color="red">
-						<IconOpera class="mr-2 icon opera" />
-						Opera
-					</v-btn>
-				</v-card-actions>
-
-				<v-card-actions>
-					<v-btn flat large block href="https://twitter.com/nurodev">
-						<IconTwitter class="mr-3" />
-						Twitter
-					</v-btn>
-					<v-btn flat large block href="https://github.com/tdemapp">
-						<IconGitHub class="mr-3" />
-						GitHub
-					</v-btn>
-				</v-card-actions>
-			</v-card>
-		</v-flex>
-	</v-layout>
+					<v-card-actions>
+						<v-btn large block round class="mx-4 button chrome" color="blue">
+							<IconChrome class="mr-2 icon" />
+							Chrome
+						</v-btn>
+						<v-btn
+							large
+							block
+							round
+							class="mx-4 button firefox"
+							color="orange darken-3"
+						>
+							<IconFirefox class="mr-2 icon" />
+							Firefox
+						</v-btn>
+						<v-btn large block round class="mx-4 button opera" color="red">
+							<IconOpera class="mr-2 icon" />
+							Opera
+						</v-btn>
+					</v-card-actions>
+				</v-card>
+			</v-flex>
+		</v-layout>
+	<!-- </v-responsive> -->
 </template>
 
 <script>
@@ -82,17 +75,36 @@ export default {
 .icon {
 	width: 24px;
 	height: 24px;
+	fill: #fff;
 }
-.icon.chrome {
-	fill: #2196f3;
+.button {
+	-webkit-transition: all 0.25s !important;
+	transition: all 0.25s !important;
+	transform: translateY(0);
 }
-.icon.firefox {
-	fill: #ef6c00;
+.button:hover {
+	-webkit-transition: all 0.25s !important;
+	transition: all 0.25s !important;
+	transform: translateY(-3px);
 }
-.icon.opera {
-	fill: #f44336;
+.button:active {
+	-webkit-transition: all 0.25s !important;
+	transition: all 0.25s !important;
+	transform: translateY(3px);
 }
-.text-spaced {
-	letter-spacing: 0.2em!important;
+.chrome {
+	background: #81ceff !important;
+	background: linear-gradient(0deg, #81ceff 0%, #0065d7 100%) !important;
+	background: -webkit-linear-gradient(0deg, #81ceff 0%, #0065d7 100%) !important;
+}
+.firefox {
+	background: #ff944a !important;
+	background: linear-gradient(0deg, #ff944a 0%, #ac4600 100%) !important;
+	background: -webkit-linear-gradient(0deg, #ff944a 0%, #ac4600 100%) !important;
+}
+.opera {
+	background: #ff5858 !important;
+	background: linear-gradient(0deg, #ff5858 0%, #a60000 100%) !important;
+	background: -webkit-linear-gradient(0deg, #ff5858 0%, #a60000 100%) !important;
 }
 </style>

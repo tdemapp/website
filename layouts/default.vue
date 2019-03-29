@@ -1,16 +1,22 @@
 <template>
-  <v-app dark>
-    <v-content class="grey darken-4">
-      <v-container fluid class="pa-0">
-        <nuxt />
-      </v-container>
-    </v-content>
-  </v-app>
+	<v-app dark>
+		<AppToolbar />
+		<v-content class="transparent">
+			<v-container fluid fill-height>
+				<nuxt />
+			</v-container>
+		</v-content>
+	</v-app>
 </template>
 
 <script>
+import AppToolbar from '~/components/AppToolbar';
+
 export default {
 	name: 'App',
+	components: {
+		AppToolbar,
+	},
 };
 </script>
 
@@ -21,24 +27,13 @@ export default {
 
 html,
 body,
-.theme--light.application {
-	background-color: #fafcff !important;
-	margin: 0;
-	font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+.theme--dark.application {
+	background: #202020 !important;
+	background: radial-gradient(circle at top, #343434 0%, #000000 100%) !important;
+	background: -webkit-radial-gradient(circle at top, #343434 0%, #000000 100%) !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-transition: all 0.5s !important;
 	transition: all 0.5s !important;
-}
-
-.text {
-	font-weight: 300 !important;
-	letter-spacing: 0.2em !important;
-	text-transform: uppercase;
-	border-radius: 6px !important;
-}
-
-.v-btn {
-	border-radius: 0 !important;
 }
 </style>

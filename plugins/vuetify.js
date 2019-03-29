@@ -3,6 +3,7 @@ import Vuetify, {
 	VApp,
 	VToolbar,
 	VToolbarItems,
+	VToolbarTitle,
 	VBtn,
 	VCard,
 	VCardActions,
@@ -14,8 +15,6 @@ import Vuetify, {
 	VContainer,
 	VLayout,
 	VFlex,
-	VAvatar,
-	VFadeTransition,
 } from 'vuetify/lib';
 import { Ripple } from 'vuetify/lib/directives';
 
@@ -27,6 +26,7 @@ Vue.use(Vuetify, {
 		VApp,
 		VToolbar,
 		VToolbarItems,
+		VToolbarTitle,
 		VBtn,
 		VCard,
 		VCardActions,
@@ -38,8 +38,6 @@ Vue.use(Vuetify, {
 		VContainer,
 		VLayout,
 		VFlex,
-		VAvatar,
-		VFadeTransition,
 	},
 	directives: {
 		Ripple,
