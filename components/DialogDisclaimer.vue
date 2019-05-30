@@ -18,15 +18,18 @@
 					<v-spacer />
 
 					<v-toolbar-items class="hidden-sm-and-down">
-						<v-btn flat class="squareCorners" @click="dialog = false">
+						<v-btn flat @click="dialog = false">
 							<IconClose />
 						</v-btn>
 					</v-toolbar-items>
 				</v-toolbar>
 
-				<v-card-text>
-					TDEM uses the <a href="https://github.com/DeckHack/TD.extensions" alt="TD.Extensions" aria-label="TD.Extensions">TD.extensions specification</a> which creates a system for code injection into TweetDeck.
-					As such please do take care when installing extensions and NEVER install anything that could be seen as malicious.
+				<v-card-text class="pb-2">
+					<span class="text-spaced-button text-uppercase font-weight-thin">TDEM uses the <a href="https://github.com/DeckHack/TD.extensions" alt="TD.Extensions" aria-label="TD.Extensions">TD.extensions specification</a> which creates a system for code injection into TweetDeck.</span>
+				</v-card-text>
+
+				<v-card-text class="pt-2">
+					<span class="text-spaced-button text-uppercase font-weight-thin">As such please do take care when installing extensions and <strong>NEVER</strong> install anything that could be seen as malicious.</span>
 				</v-card-text>
 			</v-card>
 		</v-dialog>
