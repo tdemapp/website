@@ -6,7 +6,7 @@
 					<v-toolbar flat extended class='transparent pt-4 pb-2'>
 						<v-spacer />
 						<v-avatar size="192px" data-aos="fade-down" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
-							<img src="/icon.svg" alt="Logo">
+							<Logo alt="Logo" />
 						</v-avatar>
 						<v-spacer />
 					</v-toolbar>
@@ -53,7 +53,13 @@
 </template>
 
 <script>
-export default {};
+import Logo from '~/static/icon.svg';
+
+export default {
+	components: {
+		Logo
+	}
+};
 </script>
 
 <style>
