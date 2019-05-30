@@ -7051,7 +7051,7 @@ svg-tags@^1.0.0:
   resolved "https://registry.yarnpkg.com/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
   integrity sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=
 
-svg-to-vue-component@^0.3.6:
+svg-to-vue-component@^0.3.8:
   version "0.3.8"
   resolved "https://registry.yarnpkg.com/svg-to-vue-component/-/svg-to-vue-component-0.3.8.tgz#063e5d801c8736f16067ad8add3c3162d55c1a5d"
   integrity sha512-ZmtJVnKP64aIrGdVSHUa9btHKaekOyGiHS4iuu2zGXyDmBNU5rhEJWOhCyYqIjgJJOcOp2xZYAI06dZLbTDdiA==

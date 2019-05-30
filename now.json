@@ -1,18 +1,30 @@
 {
-    "version": 2,
-    "name": "tdem-app",
-    "alias": "tdem.app",
-    "regions": [
-      "sfo1",
-      "bru1",
-      "lhr1"
-    ],
-    "public": true,
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@now/static-build"
+  "version": 2,
+  "name": "tdem-app",
+  "alias": "beta.tdem.app",
+  "regions": [
+    "sfo1",
+    "bru1",
+    "lhr1"
+  ],
+  "public": true,
+  "builds": [
+    {
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/now-builder",
+      "config": {}
+    }
+  ],
+  "routes": [
+    {
+      "src": "/_nuxt/.+",
+      "headers": {
+        "cache-control": "s-maxage=31536000"
       }
-    ]
-  }
-  
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
