@@ -33,11 +33,3 @@ export default {
 	},
 };
 </script>
-
-<style>
-.angle {
-	width: 110%;
-	top: -5%;
-	left: -5%;
-}
-</style>

@@ -13,9 +13,6 @@
 				<v-btn dark flat large to="/releases" aria-label="Releases">
 					<IconReleaseNotes />
 				</v-btn>
-				<v-btn dark flat large href="https://monzo.me/bendixon3" aria-label="Donate">
-					<IconDonate />
-				</v-btn>
 				<v-btn dark flat large href="https://github.com/nurodev" aria-label="GitHub">
 					<IconGitHub />
 				</v-btn>
@@ -37,7 +34,6 @@
 </template>
 
 <script>
-import IconDonate from '~/static/icons/donate.svg';
 import IconFAQ from '~/static/icons/faq.svg';
 import IconGitHub from '~/static/icons/github.svg';
 import IconHome from '~/static/icons/home.svg';
@@ -49,7 +45,6 @@ import DialogDisclaimer from '~/components/DialogDisclaimer';
 export default {
 	components: {
 		DialogDisclaimer,
-		IconDonate,
 		IconFAQ,
 		IconGitHub,
 		IconHome,
