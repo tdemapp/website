@@ -36,7 +36,8 @@
 							large
 							block
 							round
-							class="mx-4 headerBtn githubBtn"
+							outline
+							class="mx-4 headerBtn"
 							href="https://github.com/tdemapp"
 							aria-label="GitHub"
 						>
@@ -70,9 +71,6 @@ export default {};
 	-webkit-transition: all 0.25s !important;
 	transition: all 0.25s !important;
 	transform: translateY(3px);
-}
-.githubBtn {
-	border: 2px solid #212121;
 }
 .header {
 	font-size: 64px;
