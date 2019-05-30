@@ -54,7 +54,7 @@ module.exports = {
 	// Plugins to load before mounting the App
 	plugins: ['@/plugins/vuetify', '@/plugins/aos'],
 	// Nuxt.js modules
-	modules: ['@nuxtjs/robots', '@nuxtjs/pwa', 'svg-to-vue-component/nuxt'],
+	modules: ['@nuxtjs/robots', '@nuxtjs/pwa', 'svg-to-vue-component/nuxt', 'vue-scrollto/nuxt'],
 	// Build configuration
 	build: {
 		// You can extend webpack config here

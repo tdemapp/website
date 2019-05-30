@@ -1,5 +1,5 @@
 <template>
-	<v-layout>
+	<v-layout id="download">
 		<v-flex layout wrap xs12 align-content-space-between>
 			<v-responsive height="50vh" class="transparent">
 				<v-layout align-center justify-space-around row wrap fill-height>

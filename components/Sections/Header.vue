@@ -26,7 +26,7 @@
 					</v-card-text>
 
 					<v-card-actions data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
-						<v-btn dark large block round depressed class="mx-4 headerBtn">
+						<v-btn dark large block round depressed class="mx-4 headerBtn" v-scroll-to="{el: '#download',duration: 1000,easing: 'ease-in-out'}">
 							<span class="text-spaced-button text-uppercase font-weight-black"
 								>Download</span
 							>
