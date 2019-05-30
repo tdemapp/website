@@ -25,7 +25,7 @@
 				</v-toolbar>
 
 				<v-card-text>
-					Disclaimer: TDEM uses the <a href="https://github.com/DeckHack/TD.extensions" alt="TD.Extensions" aria-label="TD.Extensions">TD.extensions specification</a> which creates a system for code injection into TweetDeck.
+					TDEM uses the <a href="https://github.com/DeckHack/TD.extensions" alt="TD.Extensions" aria-label="TD.Extensions">TD.extensions specification</a> which creates a system for code injection into TweetDeck.
 					As such please do take care when installing extensions and NEVER install anything that could be seen as malicious.
 				</v-card-text>
 			</v-card>

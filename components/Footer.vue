@@ -1,5 +1,5 @@
 <template>
-	<v-footer dark height="auto" data-aos="slide-up" data-aos-once="true">
+	<v-footer dark height="auto">
 		<v-card class="flex my-0 py-0" flat tile>
 			<v-card-title class="grey darken-4">
 				<v-spacer />
