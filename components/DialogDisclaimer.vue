@@ -25,11 +25,24 @@
 				</v-toolbar>
 
 				<v-card-text class="pb-2">
-					<span class="text-spaced-button text-uppercase font-weight-thin">TDEM uses the <a href="https://github.com/DeckHack/TD.extensions" alt="TD.Extensions" aria-label="TD.Extensions">TD.extensions specification</a> which creates a system for code injection into TweetDeck.</span>
+					<span class="text-spaced-button text-uppercase font-weight-thin"
+						>TDEM uses the
+						<a
+							href="https://github.com/DeckHack/TD.extensions"
+							alt="TD.Extensions"
+							aria-label="TD.Extensions"
+							>TD.extensions specification</a
+						>
+						which creates a system for code injection into TweetDeck.</span
+					>
 				</v-card-text>
 
 				<v-card-text class="pt-2">
-					<span class="text-spaced-button text-uppercase font-weight-thin">As such please do take care when installing extensions and <strong>NEVER</strong> install anything that could be seen as malicious.</span>
+					<span class="text-spaced-button text-uppercase font-weight-thin"
+						>As such please do take care when installing extensions and
+						<strong>NEVER</strong> install anything that could be seen as
+						malicious.</span
+					>
 				</v-card-text>
 			</v-card>
 		</v-dialog>

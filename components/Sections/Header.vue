@@ -3,21 +3,36 @@
 		<v-responsive height="100vh" class="transparent">
 			<v-layout row wrap align-center justify-center fill-height>
 				<v-card class="transparent elevation-0">
-					<v-toolbar flat extended class='transparent pt-4 pb-2'>
+					<v-toolbar flat extended class="transparent pt-4 pb-2">
 						<v-spacer />
-						<v-avatar size="192px" data-aos="fade-down" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
+						<v-avatar
+							size="192px"
+							data-aos="fade-down"
+							data-aos-duration="1200"
+							data-aos-easing="ease-in-out-back"
+						>
 							<Logo alt="Logo" />
 						</v-avatar>
 						<v-spacer />
 					</v-toolbar>
 
-					<v-card-text class="py-0" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
+					<v-card-text
+						class="py-0"
+						data-aos="fade-left"
+						data-aos-duration="1200"
+						data-aos-easing="ease-in-out-back"
+					>
 						<h1 class="header text-xs-center font-weight-black text-uppercase">
 							Extend your deck
 						</h1>
 					</v-card-text>
 
-					<v-card-text class="py-0" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
+					<v-card-text
+						class="py-0"
+						data-aos="fade-right"
+						data-aos-duration="1200"
+						data-aos-easing="ease-in-out-back"
+					>
 						<p
 							class="subHeader text-spaced-sub-header text-xs-center text-uppercase font-weight-thin"
 						>
@@ -25,8 +40,20 @@
 						</p>
 					</v-card-text>
 
-					<v-card-actions data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
-						<v-btn dark large block round depressed class="mx-4 headerBtn" v-scroll-to="{el: '#download',duration: 1000,easing: 'ease-in-out'}">
+					<v-card-actions
+						data-aos="fade-up"
+						data-aos-duration="1200"
+						data-aos-easing="ease-in-out-back"
+					>
+						<v-btn
+							dark
+							large
+							block
+							round
+							depressed
+							class="mx-4 headerBtn"
+							v-scroll-to="{ el: '#download', duration: 1000, easing: 'ease-in-out' }"
+						>
 							<span class="text-spaced-button text-uppercase font-weight-black"
 								>Download</span
 							>
@@ -57,8 +84,8 @@ import Logo from '~/static/icon.svg';
 
 export default {
 	components: {
-		Logo
-	}
+		Logo,
+	},
 };
 </script>
 
