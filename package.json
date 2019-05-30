@@ -12,10 +12,11 @@
     "prettier": "prettier --config .prettierrc.json --write \"**/*.{js,css,vue}\""
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^3.0.0-beta.14",
-    "@nuxtjs/robots": "^2.0.0",
-    "nuxt": "^2.5.1",
-    "vuetify": "^1.5.7"
+    "@nuxtjs/pwa": "^3.0.0-beta.16",
+    "@nuxtjs/robots": "^2.2.0",
+    "aos": "^3.0.0-beta.6",
+    "nuxt": "^2.7.1",
+    "vuetify": "^1.5.14"
   },
   "devDependencies": {
     "eslint-config-prettier": "^4.1.0",

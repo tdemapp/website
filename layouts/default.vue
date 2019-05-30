@@ -1,21 +1,18 @@
 <template>
-	<v-app dark>
-		<AppToolbar />
-		<v-content class="transparent">
-			<v-container fluid fill-height>
-				<nuxt />
-			</v-container>
+	<v-app>
+		<v-content>
+			<nuxt />
 		</v-content>
+		<Footer />
 	</v-app>
 </template>
 
 <script>
-import AppToolbar from '~/components/AppToolbar';
+import Footer from '~/components/Footer';
 
 export default {
-	name: 'App',
 	components: {
-		AppToolbar,
+		Footer,
 	},
 };
 </script>
@@ -27,13 +24,24 @@ export default {
 
 html,
 body,
-.theme--dark.application {
-	background: #202020 !important;
-	background: radial-gradient(circle at top, #343434 0%, #000000 100%) !important;
-	background: -webkit-radial-gradient(circle at top, #343434 0%, #000000 100%) !important;
+.theme--light.application {
+	background: #fafcff !important;
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-transition: all 0.5s !important;
 	transition: all 0.5s !important;
+}
+.v-toolbar .v-toolbar__content {
+	padding: 0 !important;
+}
+.text-spaced-header {
+	letter-spacing: 12px !important;
+}
+.text-spaced-sub-header {
+	letter-spacing: 7px !important;
+}
+.text-spaced-button {
+	letter-spacing: 4px !important;
 }
 </style>
