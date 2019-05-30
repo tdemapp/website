@@ -3,9 +3,13 @@
 		<v-responsive height="100vh" class="transparent">
 			<v-layout row wrap align-center justify-center fill-height>
 				<v-card class="transparent elevation-0">
-					<v-avatar size="192px" data-aos="fade-down" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
-						<img src="/icon.svg" alt="Logo">
-					</v-avatar>
+					<v-toolbar flat extended class='transparent pt-4 pb-2'>
+						<v-spacer />
+						<v-avatar size="192px" data-aos="fade-down" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
+							<img src="/icon.svg" alt="Logo">
+						</v-avatar>
+						<v-spacer />
+					</v-toolbar>
 
 					<v-card-text class="py-0" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
 						<h1 class="header text-xs-center font-weight-black text-uppercase">

@@ -2,9 +2,9 @@
 	<section>
 		<Header />
 		<Dashboard />
-		<Download />
-		<CreateAndDestroy />
 		<Other />
+		<CreateAndDestroy />
+		<Download />
 	</section>
 </template>
 

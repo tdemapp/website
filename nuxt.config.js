@@ -10,10 +10,6 @@ module.exports = {
 		],
 		link: [
 			{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
-			{
-				rel: 'stylesheet',
-				href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,800',
-			},
 		],
 	},
 	// Customize the progress-bar color
