@@ -6,11 +6,11 @@
 					<v-flex xs12 md4>
 						<v-card class="elevation-0 transparent" data-aos="fade-right">
 							<v-card-text primary-title class="text-xs-center">
-								<IconDashboard width="64px" height="64px" />
+								<IconOther width="64px" height="64px" />
 								<div
 									class="header text-spaced-sub-header text-xs-center text-uppercase font-weight-thin"
 								>
-									Title
+									Other
 								</div>
 							</v-card-text>
 							<v-card-text>
@@ -37,11 +37,11 @@
 </template>
 
 <script>
-import IconDashboard from '~/static/icons/download.svg';
+import IconOther from '~/static/icons/other.svg';
 
 export default {
 	components: {
-		IconDashboard,
+		IconOther,
 	},
 };
 </script>

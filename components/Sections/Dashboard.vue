@@ -19,7 +19,7 @@
 								<div
 									class="header text-spaced-sub-header text-xs-center text-uppercase font-weight-thin"
 								>
-									Title
+									Dashboard
 								</div>
 							</v-card-text>
 							<v-card-text>
@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import IconDashboard from '~/static/icons/download.svg';
+import IconDashboard from '~/static/icons/dashboard.svg';
 
 export default {
 	components: {

@@ -15,11 +15,11 @@
 					<v-flex xs12 md4>
 						<v-card dark class="elevation-0 transparent" data-aos="fade-left">
 							<v-card-text primary-title class="text-xs-center">
-								<IconDashboard width="64px" height="64px" />
+								<IconApi width="64px" height="64px" />
 								<div
 									class="header text-spaced-sub-header text-xs-center text-uppercase font-weight-thin"
 								>
-									Title
+									API
 								</div>
 							</v-card-text>
 							<v-card-text>
@@ -37,11 +37,11 @@
 </template>
 
 <script>
-import IconDashboard from '~/static/icons/download.svg';
+import IconApi from '~/static/icons/api.svg';
 
 export default {
 	components: {
-		IconDashboard,
+		IconApi,
 	},
 };
 </script>

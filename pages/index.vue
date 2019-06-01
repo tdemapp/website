@@ -3,13 +3,13 @@
 		<Header />
 		<Dashboard />
 		<Other />
-		<CreateAndDestroy />
+		<Api />
 		<Download />
 	</section>
 </template>
 
 <script>
-import CreateAndDestroy from '~/components/Sections/CreateAndDestroy';
+import Api from '~/components/Sections/Api';
 import Dashboard from '~/components/Sections/Dashboard';
 import Download from '~/components/Sections/Download';
 import Header from '~/components/Sections/Header';
@@ -20,7 +20,7 @@ export default {
 		title: 'Home',
 	},
 	components: {
-		CreateAndDestroy,
+		Api,
 		Dashboard,
 		Download,
 		Header,
