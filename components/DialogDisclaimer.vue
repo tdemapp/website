@@ -37,11 +37,13 @@
 					>
 				</v-card-text>
 
+				<v-divider class="mx-2" />
+
 				<v-card-text class="pt-2">
 					<span class="text-spaced-button text-uppercase font-weight-thin"
 						>As such please do take care when installing extensions and
-						<strong>NEVER</strong> install anything that could be seen as
-						malicious.</span
+						<strong class="font-weight-black">NEVER</strong> install anything that looks
+						suspicious/malicious.</span
 					>
 				</v-card-text>
 			</v-card>
