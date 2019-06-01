@@ -1,6 +1,6 @@
 <template>
 	<v-footer dark height="auto">
-		<v-card class="flex my-0 py-0" flat tile>
+		<v-card flat tile class="flex my-0 py-0">
 			<v-card-title class="grey darken-4">
 				<v-spacer />
 
