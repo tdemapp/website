@@ -27,7 +27,7 @@
 							data-aos="fade-left"
 							data-aos-delay="200"
 						>
-							<v-responsive height="40vh" class="grey darken-3" />
+							<v-responsive height="40vh" class="grey lighten-3" />
 						</v-card>
 					</v-flex>
 				</v-layout>

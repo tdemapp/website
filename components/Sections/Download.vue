@@ -6,7 +6,7 @@
 					<v-flex xs12>
 						<v-card class="elevation-0 transparent">
 							<v-card-text
-								class="py-0"
+								class="py-0 text-xs-center"
 								data-aos="fade-down"
 								data-aos-easing="ease-in-out-back"
 							>
