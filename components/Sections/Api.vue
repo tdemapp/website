@@ -1,5 +1,5 @@
 <template>
-	<v-layout align-center column wrap class="py-5 grey darken-4">
+	<v-layout align-center row wrap class="py-5 grey darken-4">
 		<v-flex xs12>
 			<v-container grid-list-xl>
 				<v-layout row wrap align-center>
@@ -17,9 +17,14 @@
 							<v-card-text primary-title class="text-xs-center">
 								<IconApi width="64px" height="64px" />
 								<div
-									class="header text-spaced-sub-header text-xs-center text-uppercase font-weight-thin"
+									class="header text-spaced-header text-xs-center font-weight-black text-uppercase"
 								>
 									API
+								</div>
+								<div
+									class="subHeader text-spaced-sub-header text-xs-center text-uppercase font-weight-thin"
+								>
+									Section subheading text goes here
 								</div>
 							</v-card-text>
 							<v-card-text>

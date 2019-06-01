@@ -1,6 +1,6 @@
 <template>
-	<v-layout align-center column wrap class="py-5 transparent" id="download">
-		<v-flex xs12>
+	<v-layout align-center justify-center row wrap class="py-5 transparent" id="download">
+		<v-flex xs12 md4>
 			<v-container grid-list-xl>
 				<v-layout row wrap align-center>
 					<v-flex xs12>

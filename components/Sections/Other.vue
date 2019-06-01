@@ -8,9 +8,14 @@
 							<v-card-text primary-title class="text-xs-center">
 								<IconOther width="64px" height="64px" />
 								<div
-									class="header text-spaced-sub-header text-xs-center text-uppercase font-weight-thin"
+									class="header text-spaced-header text-xs-center font-weight-black text-uppercase"
 								>
 									Other
+								</div>
+								<div
+									class="subHeader text-spaced-sub-header text-xs-center text-uppercase font-weight-thin"
+								>
+									Section subheading text goes here
 								</div>
 							</v-card-text>
 							<v-card-text>
