@@ -1,7 +1,9 @@
 <template>
 	<v-app>
 		<v-content>
-			<nuxt />
+			<v-container fluid class="pa-0">
+				<nuxt />
+			</v-container>
 		</v-content>
 		<Footer />
 	</v-app>
