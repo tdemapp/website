@@ -17,8 +17,7 @@
 								</h1>
 							</v-card-text>
 
-							<v-card-actions>
-								<div
+								<v-card-actions
 									class="mx-2"
 									data-aos="zoom-in"
 									data-aos-delay="50"
@@ -28,6 +27,7 @@
 										large
 										outline
 										round
+										block
 										class="headerBtn"
 										color="blue"
 										href="https://github.com/tdemapp/manager/releases"
@@ -35,9 +35,9 @@
 										<IconDownload class="mr-3" />
 										Chrome
 									</v-btn>
-								</div>
+								</v-card-actions>
 
-								<div
+								<v-card-actions
 									class="mx-2"
 									data-aos="zoom-in"
 									data-aos-delay="150"
@@ -47,6 +47,7 @@
 										large
 										outline
 										round
+										block
 										class="headerBtn"
 										color="deep-orange"
 										href="https://github.com/tdemapp/manager/releases"
@@ -54,9 +55,9 @@
 										<IconDownload class="mr-3" />
 										Firefox
 									</v-btn>
-								</div>
+								</v-card-actions>
 
-								<div
+								<v-card-actions
 									class="mx-2"
 									data-aos="zoom-in"
 									data-aos-delay="250"
@@ -66,6 +67,7 @@
 										large
 										outline
 										round
+										block
 										class="headerBtn"
 										color="red"
 										href="https://github.com/tdemapp/manager/releases"
@@ -73,8 +75,7 @@
 										<IconDownload class="mr-3" />
 										Opera
 									</v-btn>
-								</div>
-							</v-card-actions>
+								</v-card-actions>
 						</v-card>
 					</v-flex>
 				</v-layout>
