@@ -37,10 +37,7 @@ body,
 .v-toolbar .v-toolbar__content {
 	padding: 0 !important;
 }
-.text-spaced-header {
-	letter-spacing: 12px !important;
-}
-.text-spaced-sub-header {
+.text-spaced {
 	letter-spacing: 7px !important;
 }
 .text-spaced-button {

@@ -10,7 +10,7 @@
 				<v-toolbar flat dark color="grey darken-4">
 					<v-card-title>
 						<IconInfo class="mr-2" />
-						<h1 class="text-spaced-header text-uppercase font-weight-black ml-2">
+						<h1 class="text-spaced text-uppercase font-weight-black ml-2">
 							Disclaimer
 						</h1>
 					</v-card-title>
@@ -25,14 +25,15 @@
 				</v-toolbar>
 
 				<v-card-text class="pb-2">
-					<span class="text-spaced-button text-uppercase font-weight-thin"
-						>TDEM uses the
+					<span class="text-spaced-button font-weight-thin">
+						TDEM uses the
 						<a
 							href="https://github.com/DeckHack/TD.extensions"
 							alt="TD.Extensions"
 							aria-label="TD.Extensions"
-							>TD.extensions specification</a
 						>
+							TD.extensions specification
+						</a>
 						which creates a system for code injection into TweetDeck.</span
 					>
 				</v-card-text>
@@ -40,7 +41,7 @@
 				<v-divider class="mx-2" />
 
 				<v-card-text class="pt-2">
-					<span class="text-spaced-button text-uppercase font-weight-thin"
+					<span class="text-spaced-button font-weight-thin"
 						>As such please do take care when installing extensions and
 						<strong class="font-weight-black">NEVER</strong> install anything that looks
 						suspicious/malicious.</span

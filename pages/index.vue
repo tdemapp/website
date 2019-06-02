@@ -2,8 +2,8 @@
 	<section>
 		<Header />
 		<Dashboard />
-		<Other />
 		<Api />
+		<Other />
 		<Download />
 	</section>
 </template>
@@ -33,3 +33,10 @@ export default {
 	},
 };
 </script>
+
+<style>
+.display-3 {
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
+	font-size: 64px !important;
+}
+</style>

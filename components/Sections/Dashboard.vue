@@ -17,12 +17,12 @@
 							<v-card-text primary-title class="text-xs-center">
 								<IconDashboard width="64px" height="64px" />
 								<div
-									class="header text-spaced-header text-xs-center font-weight-black text-uppercase"
+									class="display-3 text-xs-center font-weight-black text-uppercase my-2"
 								>
 									Dashboard
 								</div>
 								<div
-									class="subHeader text-spaced-sub-header text-xs-center text-uppercase font-weight-thin"
+									class="caption text-spaced text-xs-center text-uppercase font-weight-thin"
 								>
 									Section subheading text goes here
 								</div>

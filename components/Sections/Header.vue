@@ -21,7 +21,7 @@
 					data-aos-duration="1200"
 					data-aos-easing="ease-in-out-back"
 				>
-					<h1 class="header text-xs-center font-weight-black text-uppercase">
+					<h1 class="display-3 text-xs-center font-weight-black text-uppercase">
 						Extend your deck
 					</h1>
 				</v-card-text>
@@ -32,9 +32,7 @@
 					data-aos-duration="1200"
 					data-aos-easing="ease-in-out-back"
 				>
-					<p
-						class="subHeader text-spaced-sub-header text-xs-center text-uppercase font-weight-thin"
-					>
+					<p class="caption text-spaced text-xs-center text-uppercase font-weight-thin">
 						Install and manage extensions for TweetDeck
 					</p>
 				</v-card-text>
@@ -102,11 +100,5 @@ export default {
 	-webkit-transition: all 0.25s !important;
 	transition: all 0.25s !important;
 	transform: translateY(3px);
-}
-.header {
-	font-size: 64px;
-}
-.subHeader {
-	font-size: 12px;
 }
 </style>

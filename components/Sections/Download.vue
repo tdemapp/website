@@ -11,71 +11,71 @@
 								data-aos-easing="ease-in-out-back"
 							>
 								<h1
-									class="text-spaced-header header text-xs-center font-weight-black text-uppercase"
+									class="display-3 text-spaced header text-xs-center font-weight-black text-uppercase"
 								>
 									Download
 								</h1>
 							</v-card-text>
 
-								<v-card-actions
-									class="mx-2"
-									data-aos="zoom-in"
-									data-aos-delay="50"
-									data-aos-easing="ease-in-out-back"
+							<v-card-actions
+								class="mx-2"
+								data-aos="zoom-in"
+								data-aos-delay="50"
+								data-aos-easing="ease-in-out-back"
+							>
+								<v-btn
+									large
+									outline
+									round
+									block
+									class="headerBtn"
+									color="blue"
+									href="https://github.com/tdemapp/manager/releases"
 								>
-									<v-btn
-										large
-										outline
-										round
-										block
-										class="headerBtn"
-										color="blue"
-										href="https://github.com/tdemapp/manager/releases"
-									>
-										<IconDownload class="mr-3" />
-										Chrome
-									</v-btn>
-								</v-card-actions>
+									<IconDownload class="mr-3" />
+									Chrome
+								</v-btn>
+							</v-card-actions>
 
-								<v-card-actions
-									class="mx-2"
-									data-aos="zoom-in"
-									data-aos-delay="150"
-									data-aos-easing="ease-in-out-back"
+							<v-card-actions
+								class="mx-2"
+								data-aos="zoom-in"
+								data-aos-delay="150"
+								data-aos-easing="ease-in-out-back"
+							>
+								<v-btn
+									large
+									outline
+									round
+									block
+									class="headerBtn"
+									color="deep-orange"
+									href="https://github.com/tdemapp/manager/releases"
 								>
-									<v-btn
-										large
-										outline
-										round
-										block
-										class="headerBtn"
-										color="deep-orange"
-										href="https://github.com/tdemapp/manager/releases"
-									>
-										<IconDownload class="mr-3" />
-										Firefox
-									</v-btn>
-								</v-card-actions>
+									<IconDownload class="mr-3" />
+									Firefox
+								</v-btn>
+							</v-card-actions>
 
-								<v-card-actions
-									class="mx-2"
-									data-aos="zoom-in"
-									data-aos-delay="250"
-									data-aos-easing="ease-in-out-back"
+							<v-card-actions
+								class="mx-2"
+								data-aos="zoom-in"
+								data-aos-delay="250"
+								data-aos-easing="ease-in-out-back"
+							>
+								<v-btn
+									large
+									outline
+									round
+									block
+									class="headerBtn"
+									color="red"
+									href="https://github.com/tdemapp/manager/releases"
 								>
-									<v-btn
-										large
-										outline
-										round
-										block
-										class="headerBtn"
-										color="red"
-										href="https://github.com/tdemapp/manager/releases"
-									>
-										<IconDownload class="mr-3" />
-										Opera
-									</v-btn>
-								</v-card-actions>
+									<IconDownload class="mr-3" />
+									Opera
+								</v-btn>
+							</v-card-actions>
 						</v-card>
 					</v-flex>
 				</v-layout>
