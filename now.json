@@ -2,12 +2,16 @@
   "version": 2,
   "name": "tdem-app",
   "alias": "beta.tdem.app",
+  "public": true,
+  "github": {
+    "autoAlias": true,
+    "enabled": true
+  },
   "regions": [
     "sfo1",
     "bru1",
     "lhr1"
   ],
-  "public": true,
   "builds": [
     {
       "src": "nuxt.config.js",
