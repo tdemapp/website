@@ -2,16 +2,16 @@
 	<section>
 		<Header />
 		<Dashboard />
-		<Api />
+		<Extensions />
 		<Other />
 		<Download />
 	</section>
 </template>
 
 <script>
-import Api from '~/components/Sections/Api';
 import Dashboard from '~/components/Sections/Dashboard';
 import Download from '~/components/Sections/Download';
+import Extensions from '~/components/Sections/Extensions';
 import Header from '~/components/Sections/Header';
 import Other from '~/components/Sections/Other';
 
@@ -20,9 +20,9 @@ export default {
 		title: 'Home',
 	},
 	components: {
-		Api,
 		Dashboard,
 		Download,
+		Extensions,
 		Header,
 		Other,
 	},

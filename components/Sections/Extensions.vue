@@ -6,11 +6,11 @@
 					<v-flex xs12 md4>
 						<v-card class="elevation-0 transparent" data-aos="fade-right">
 							<v-card-text primary-title class="text-xs-center">
-								<IconApi width="64px" height="64px" />
+								<IconExtensions width="64px" height="64px" />
 								<div
 									class="display-3 text-xs-center font-weight-black text-uppercase"
 								>
-									API
+									Extensions
 								</div>
 								<div
 									class="caption text-spaced text-xs-center text-uppercase font-weight-thin"
@@ -42,11 +42,11 @@
 </template>
 
 <script>
-import IconApi from '~/static/icons/api.svg';
+import IconExtensions from '~/static/icons/extensions.svg';
 
 export default {
 	components: {
-		IconApi,
+		IconExtensions,
 	},
 };
 </script>
