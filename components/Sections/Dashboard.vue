@@ -1,18 +1,18 @@
 <template>
-	<v-layout align-center row wrap class="py-5 grey darken-4">
+	<v-layout align-center row wrap class="py-5 primary">
 		<v-flex xs12>
 			<v-container grid-list-xl>
 				<v-layout row wrap align-center>
-					<v-flex xs12 md8>
+					<v-flex xs12 sm12 md8>
 						<v-card
 							class="ma-3 transparent elevation-0"
 							data-aos="fade-right"
 							data-aos-delay="200"
 						>
-							<v-responsive height="40vh" class="grey darken-3" />
+							<v-responsive height="40vh" class="grey darken-4" />
 						</v-card>
 					</v-flex>
-					<v-flex xs12 md4>
+					<v-flex xs12 sm12 md4>
 						<v-card dark class="elevation-0 transparent" data-aos="fade-left">
 							<v-card-text primary-title class="text-xs-center">
 								<IconDashboard width="64px" height="64px" />

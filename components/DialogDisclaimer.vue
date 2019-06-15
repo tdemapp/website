@@ -7,7 +7,7 @@
 
 		<v-dialog v-model="dialog" max-width="490">
 			<v-card light>
-				<v-toolbar flat dark color="grey darken-4">
+				<v-toolbar flat dark color="primary">
 					<v-card-title>
 						<IconInfo class="mr-2" />
 						<h1 class="text-spaced text-uppercase font-weight-black ml-2">
@@ -25,7 +25,7 @@
 				</v-toolbar>
 
 				<v-card-text class="pb-2">
-					<span class="text-spaced-button font-weight-thin">
+					<span class="primary--text text-spaced-button font-weight-thin">
 						TDEM uses the
 						<a
 							href="https://github.com/DeckHack/TD.extensions"
@@ -41,7 +41,7 @@
 				<v-divider class="mx-2" />
 
 				<v-card-text class="pt-2">
-					<span class="text-spaced-button font-weight-thin"
+					<span class="primary--text text-spaced-button font-weight-thin"
 						>As such please do take care when installing extensions and
 						<strong class="font-weight-black">NEVER</strong> install anything that looks
 						suspicious/malicious.</span

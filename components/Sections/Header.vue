@@ -21,7 +21,7 @@
 					data-aos-duration="1200"
 					data-aos-easing="ease-in-out-back"
 				>
-					<h1 class="display-3 text-xs-center font-weight-black text-uppercase">
+					<h1 class="primary--text display-3 text-xs-center font-weight-black text-uppercase">
 						Extend your deck
 					</h1>
 				</v-card-text>
@@ -32,7 +32,7 @@
 					data-aos-duration="1200"
 					data-aos-easing="ease-in-out-back"
 				>
-					<p class="caption text-spaced text-xs-center text-uppercase font-weight-thin">
+					<p class="primary--text caption text-spaced text-xs-center text-uppercase font-weight-thin">
 						Install and manage extensions for TweetDeck
 					</p>
 				</v-card-text>
@@ -48,6 +48,7 @@
 						block
 						round
 						depressed
+						color="primary"
 						class="mx-4 headerBtn"
 						v-scroll-to="{ el: '#download', duration: 1000, easing: 'ease-in-out' }"
 					>
@@ -61,6 +62,7 @@
 						block
 						round
 						outline
+						color="primary"
 						class="mx-4 headerBtn"
 						href="https://github.com/tdemapp"
 						aria-label="GitHub"

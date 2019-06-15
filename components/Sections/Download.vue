@@ -11,7 +11,7 @@
 								data-aos-easing="ease-in-out-back"
 							>
 								<h1
-									class="display-3 text-spaced header text-xs-center font-weight-black text-uppercase"
+									class="primary--text display-3 text-spaced header text-xs-center font-weight-black text-uppercase"
 								>
 									Download
 								</h1>

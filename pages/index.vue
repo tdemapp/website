@@ -3,7 +3,7 @@
 		<Header />
 		<Dashboard />
 		<Extensions />
-		<Other />
+		<OSS />
 		<Download />
 	</section>
 </template>
@@ -13,7 +13,7 @@ import Dashboard from '~/components/Sections/Dashboard';
 import Download from '~/components/Sections/Download';
 import Extensions from '~/components/Sections/Extensions';
 import Header from '~/components/Sections/Header';
-import Other from '~/components/Sections/Other';
+import OSS from '~/components/Sections/OSS';
 
 export default {
 	metaInfo: {
@@ -24,7 +24,7 @@ export default {
 		Download,
 		Extensions,
 		Header,
-		Other,
+		OSS,
 	},
 	head() {
 		return {

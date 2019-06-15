@@ -1,25 +1,25 @@
 <template>
-	<v-layout align-center column wrap class="py-5 grey darken-4">
+	<v-layout align-center column wrap class="py-5 primary">
 		<v-flex xs12>
 			<v-container grid-list-xl>
 				<v-layout row wrap align-center>
-					<v-flex xs12 md8>
+					<v-flex xs12 sm12 md8>
 						<v-card
 							class="ma-3 transparent elevation-0"
 							data-aos="fade-right"
 							data-aos-delay="200"
 						>
-							<v-responsive height="40vh" class="grey darken-3" />
+							<v-responsive height="40vh" class="grey darken-4" />
 						</v-card>
 					</v-flex>
-					<v-flex xs12 md4>
+					<v-flex xs12 sm12 md4>
 						<v-card dark class="elevation-0 transparent" data-aos="fade-left">
 							<v-card-text primary-title class="text-xs-center">
-								<IconOther width="64px" height="64px" />
+								<IconOSS width="64px" height="64px" />
 								<div
 									class="display-3 text-xs-center font-weight-black text-uppercase"
 								>
-									Other
+									Open Source
 								</div>
 								<div
 									class="caption text-spaced text-xs-center text-uppercase font-weight-thin"
@@ -42,11 +42,11 @@
 </template>
 
 <script>
-import IconOther from '~/static/icons/other.svg';
+import IconOSS from '~/static/icons/oss.svg';
 
 export default {
 	components: {
-		IconOther,
+		IconOSS,
 	},
 };
 </script>

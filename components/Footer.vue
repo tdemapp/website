@@ -1,7 +1,7 @@
 <template>
 	<v-footer dark height="auto">
 		<v-card flat tile class="flex my-0 py-0">
-			<v-card-title class="grey darken-4">
+			<v-card-title class="primary">
 				<v-spacer />
 
 				<v-btn dark flat large to="/" aria-label="Home">
