@@ -4,19 +4,19 @@
 			<v-card-title class="primary">
 				<v-spacer />
 
-				<v-btn dark flat large to="/" aria-label="Home">
+				<v-btn dark flat large round to="/" aria-label="Home">
 					<IconHome />
 				</v-btn>
-				<v-btn dark flat large to="/faq" aria-label="FAQ">
+				<v-btn dark flat large round to="/faq" aria-label="FAQ">
 					<IconFAQ />
 				</v-btn>
-				<v-btn dark flat large to="/releases" aria-label="Releases">
+				<v-btn dark flat large round to="/releases" aria-label="Releases">
 					<IconReleaseNotes />
 				</v-btn>
-				<v-btn dark flat large href="https://github.com/nurodev" aria-label="GitHub">
+				<v-btn dark flat large round href="https://github.com/nurodev" aria-label="GitHub">
 					<IconGitHub />
 				</v-btn>
-				<v-btn dark flat large href="https://twitter.com/nurodev" aria-label="Twitter">
+				<v-btn dark flat large round href="https://twitter.com/nurodev" aria-label="Twitter">
 					<IconTwitter />
 				</v-btn>
 
