@@ -18,7 +18,7 @@
 				<v-card-text
 					class="py-0"
 					data-aos="fade-left"
-					data-aos-duration="1200"
+					data-aos-duration="1100"
 					data-aos-easing="ease-in-out-back"
 				>
 					<h1 class="primary--text display-3 text-xs-center font-weight-black text-uppercase">
@@ -37,40 +37,40 @@
 					</p>
 				</v-card-text>
 
-				<v-card-actions
-					data-aos="fade-up"
-					data-aos-duration="1200"
-					data-aos-easing="ease-in-out-back"
-				>
-					<v-btn
-						dark
-						large
-						block
-						round
-						depressed
-						color="primary"
-						class="mx-4 headerBtn"
-						v-scroll-to="{ el: '#download', duration: 1000, easing: 'ease-in-out' }"
-					>
-						<span class="text-spaced-button text-uppercase font-weight-black"
-							>Download</span
+				<v-card-actions>
+					<div data-aos="fade-up" data-aos-duration="1300" data-aos-easing="ease-in-out-back" class="flex mx-4">
+						<v-btn
+							dark
+							large
+							block
+							round
+							depressed
+							color="primary"
+							class="headerBtn"
+							v-scroll-to="{ el: '#download', duration: 1000, easing: 'ease-in-out' }"
 						>
-					</v-btn>
-					<v-btn
-						flat
-						large
-						block
-						round
-						outline
-						color="primary"
-						class="mx-4 headerBtn"
-						href="https://github.com/tdemapp"
-						aria-label="GitHub"
-					>
-						<span class="text-spaced-button text-uppercase font-weight-black"
-							>GitHub</span
+							<span class="text-spaced-button text-uppercase font-weight-black"
+								>Download</span
+							>
+						</v-btn>
+					</div>
+					<div data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out-back" class="flex mx-4">
+						<v-btn
+							flat
+							large
+							block
+							round
+							outline
+							color="primary"
+							class="headerBtn"
+							href="https://github.com/tdemapp"
+							aria-label="GitHub"
 						>
-					</v-btn>
+							<span class="text-spaced-button text-uppercase font-weight-black"
+								>GitHub</span
+							>
+						</v-btn>
+					</div>
 				</v-card-actions>
 			</v-card>
 		</v-layout>

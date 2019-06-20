@@ -43,4 +43,19 @@ body,
 .text-spaced-button {
 	letter-spacing: 4px !important;
 }
+
+.sectionAngle {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+.sectionAngle::before,
+.sectionAngle::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100px;
+	background-color: #111111;
+	transform-origin: top left;
+	transform: skewY(-3deg);
+}
 </style>
