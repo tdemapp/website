@@ -21,7 +21,9 @@
 					data-aos-duration="1100"
 					data-aos-easing="ease-in-out-back"
 				>
-					<h1 class="primary--text display-3 text-xs-center font-weight-black text-uppercase">
+					<h1
+						class="primary--text display-3 text-xs-center font-weight-black text-uppercase"
+					>
 						Extend your deck
 					</h1>
 				</v-card-text>
@@ -32,13 +34,20 @@
 					data-aos-duration="1200"
 					data-aos-easing="ease-in-out-back"
 				>
-					<p class="primary--text caption text-spaced text-xs-center text-uppercase font-weight-thin">
+					<p
+						class="primary--text caption text-spaced text-xs-center text-uppercase font-weight-thin"
+					>
 						Install and manage extensions for TweetDeck
 					</p>
 				</v-card-text>
 
 				<v-card-actions>
-					<div data-aos="fade-up" data-aos-duration="1300" data-aos-easing="ease-in-out-back" class="flex mx-4">
+					<div
+						data-aos="fade-up"
+						data-aos-duration="1300"
+						data-aos-easing="ease-in-out-back"
+						class="flex mx-4"
+					>
 						<v-btn
 							dark
 							large
@@ -54,7 +63,12 @@
 							>
 						</v-btn>
 					</div>
-					<div data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out-back" class="flex mx-4">
+					<div
+						data-aos="fade-up"
+						data-aos-duration="1500"
+						data-aos-easing="ease-in-out-back"
+						class="flex mx-4"
+					>
 						<v-btn
 							flat
 							large

@@ -16,7 +16,14 @@
 				<v-btn dark flat large round href="https://github.com/nurodev" aria-label="GitHub">
 					<IconGitHub />
 				</v-btn>
-				<v-btn dark flat large round href="https://twitter.com/nurodev" aria-label="Twitter">
+				<v-btn
+					dark
+					flat
+					large
+					round
+					href="https://twitter.com/nurodev"
+					aria-label="Twitter"
+				>
 					<IconTwitter />
 				</v-btn>
 

@@ -1,6 +1,6 @@
 <template>
 	<section id="dashboard" class="sectionAngle">
-		<v-layout align-center row wrap class="py-5 primary dashbordBackground">
+		<v-layout align-center row wrap class="py-5 primary">
 			<v-flex xs12>
 				<v-container grid-list-xl>
 					<v-layout row wrap align-center>
@@ -30,9 +30,10 @@
 								</v-card-text>
 								<v-card-text>
 									Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat
-									tincidunt ornare. Pellentesque habitant morbi tristique senectus et
-									netus et malesuada fames ac turpis egestas. Nullam in aliquet odio.
-									Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+									tincidunt ornare. Pellentesque habitant morbi tristique senectus
+									et netus et malesuada fames ac turpis egestas. Nullam in aliquet
+									odio. Aliquam eu est vitae tellus bibendum tincidunt.
+									Suspendisse potenti.
 								</v-card-text>
 							</v-card>
 						</v-flex>

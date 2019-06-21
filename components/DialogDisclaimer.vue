@@ -26,7 +26,8 @@
 
 				<v-card-text class="mb-1">
 					<span class="primary--text font-weight-thin">
-						TDEM is <strong>NOT</strong> affiliated with Twitter or TweetDeck in any way.
+						TDEM is <strong>NOT</strong> affiliated with Twitter or TweetDeck in any
+						way.
 					</span>
 				</v-card-text>
 
@@ -35,18 +36,18 @@
 				<v-card-text class="mt-1">
 					<span class="primary--text font-weight-thin">
 						TDEM uses the
-							<a
-								href="https://github.com/DeckHack/TD.extensions"
-								alt="TD.Extensions"
-								aria-label="TD.Extensions"
-							>
-								TD.extensions specification
-							</a>
-							which creates a system for code injection into TweetDeck.
-							<br />
-							As such please do take care when installing extensions and
-							<strong class="font-weight-black">NEVER</strong> install anything that has not been verifed or anything that looks
-							suspicious/malicious.
+						<a
+							href="https://github.com/DeckHack/TD.extensions"
+							alt="TD.Extensions"
+							aria-label="TD.Extensions"
+						>
+							TD.extensions specification
+						</a>
+						which creates a system for code injection into TweetDeck.
+						<br />
+						As such please do take care when installing extensions and
+						<strong class="font-weight-black">NEVER</strong> install anything that has
+						not been verifed or anything that looks suspicious/malicious.
 					</span>
 				</v-card-text>
 

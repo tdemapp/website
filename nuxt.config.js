@@ -1,5 +1,6 @@
 module.exports = {
 	mode: 'spa',
+
 	// Headers of the page
 	head: {
 		title: 'TDEM | TweetDeck Extension Manager',
@@ -10,12 +11,14 @@ module.exports = {
 		],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
 	},
+
 	// Customize the progress-bar color
 	loading: {
 		color: '#ffffff',
 		failedColor: '#f44336',
 		height: '3px',
 	},
+
 	// Nuxt PWA module
 	meta: {
 		favicon: true,
@@ -24,6 +27,7 @@ module.exports = {
 		lang: 'en',
 		theme_color: '#212121',
 	},
+
 	// Manifest data
 	manifest: {
 		name: 'TDEM',
@@ -36,10 +40,12 @@ module.exports = {
 		background_color: '#212121',
 		theme_color: '#212121',
 	},
+
 	// Icon sizes to generate
 	icon: {
 		sizes: [16, 128, 144, 152, 192, 256, 512],
 	},
+
 	// Nuxt Robots modules
 	robots: [
 		{
@@ -49,14 +55,23 @@ module.exports = {
 	],
 	// Nuxt Markdown parser
 	markdownit: {
-    injected: true
+		injected: true,
 	},
 	// Global CSS
 	css: ['~/assets/style/app.styl'],
+
 	// Plugins to load before mounting the App
 	plugins: ['@/plugins/vuetify', '@/plugins/aos'],
+
 	// Nuxt.js modules
-	modules: ['@nuxtjs/robots', '@nuxtjs/markdownit', '@nuxtjs/pwa', 'svg-to-vue-component/nuxt', 'vue-scrollto/nuxt'],
+	modules: [
+		'@nuxtjs/robots',
+		'@nuxtjs/markdownit',
+		'@nuxtjs/pwa',
+		'svg-to-vue-component/nuxt',
+		'vue-scrollto/nuxt',
+	],
+
 	// Build configuration
 	build: {
 		// You can extend webpack config here
