@@ -31,7 +31,7 @@
 										block
 										class="headerBtn"
 										color="blue"
-										href="https://github.com/tdemapp/manager/releases"
+										href="/chrome"
 									>
 										<IconDownload class="mr-3" />
 										Chrome
@@ -51,7 +51,7 @@
 										block
 										class="headerBtn"
 										color="deep-orange"
-										href="https://github.com/tdemapp/manager/releases"
+										href="/firefox"
 									>
 										<IconDownload class="mr-3" />
 										Firefox
@@ -71,7 +71,7 @@
 										block
 										class="headerBtn"
 										color="red"
-										href="https://github.com/tdemapp/manager/releases"
+										href="/opera"
 									>
 										<IconDownload class="mr-3" />
 										Opera

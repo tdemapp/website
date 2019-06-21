@@ -1250,6 +1250,11 @@
     "@nuxtjs/pwa-utils" "3.0.0-beta.16"
     "@nuxtjs/workbox" "3.0.0-beta.16"
 
+"@nuxtjs/redirect-module@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/redirect-module/-/redirect-module-0.2.0.tgz#579eddd2278f421a25be23c1ecbad15d712ad39e"
+  integrity sha512-dXrjeNW7uvsPq2/v1gbdfnUvzIpw7qAOpJacEEYUyLAHuhnDhG58Cp7xJOKu0l4bLoTAnj8GKfVdoM3ze1cd9A==
+
 "@nuxtjs/robots@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/robots/-/robots-2.2.0.tgz#294b8d803820fff383f73f723f43910b73e39cab"

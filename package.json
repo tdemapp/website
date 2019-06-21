@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.5",
     "@nuxtjs/pwa": "^3.0.0-beta.16",
+    "@nuxtjs/redirect-module": "^0.2.0",
     "@nuxtjs/robots": "^2.2.0",
     "aos": "^3.0.0-beta.6",
     "nuxt": "^2.8.0",

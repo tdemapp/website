@@ -1,3 +1,9 @@
+const downloadUrls = {
+	chrome: 'https://chrome.google.com/webstore',
+	firefox: 'https://addons.mozilla.org',
+	opera: 'https://addons.opera.com',
+};
+
 module.exports = {
 	mode: 'spa',
 
@@ -57,6 +63,14 @@ module.exports = {
 	markdownit: {
 		injected: true,
 	},
+
+	// URL redirects
+	redirect: [
+		{ from: '^/chrome', to: downloadUrls.chrome, statusCode: 301 },
+		{ from: '^/firefox', to: downloadUrls.firefox, statusCode: 301 },
+		{ from: '^/opera', to: downloadUrls.opera, statusCode: 301 },
+	],
+
 	// Global CSS
 	css: ['~/assets/style/app.styl'],
 
@@ -65,8 +79,9 @@ module.exports = {
 
 	// Nuxt.js modules
 	modules: [
-		'@nuxtjs/robots',
 		'@nuxtjs/markdownit',
+		'@nuxtjs/redirect-module',
+		'@nuxtjs/robots',
 		'@nuxtjs/pwa',
 		'svg-to-vue-component/nuxt',
 		'vue-scrollto/nuxt',
