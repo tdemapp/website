@@ -12,14 +12,16 @@
 						>
 							<v-card-title
 								primary-title
-								class="display-1 text-spaced-button text-xs-center font-weight-black text-uppercase"
+								class="headline text-spaced-button font-weight-black text-uppercase"
 							>
 								<span v-text="release.tag_name" />
 							</v-card-title>
 
 							<v-divider class="mx-2" />
 
-							<v-card-text v-html="$md.render(release.body)" />
+							<v-card-text>
+								<span v-html="$md.render(release.body)" />
+							</v-card-text>
 						</v-card>
 					</v-flex>
 				</v-layout>
