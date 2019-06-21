@@ -13,7 +13,7 @@
 				<v-btn dark flat large round to="/releases" aria-label="Releases">
 					<IconReleaseNotes />
 				</v-btn>
-				<v-btn dark flat large round href="https://github.com/nurodev" aria-label="GitHub">
+				<v-btn dark flat large round href="https://github.com/tdemapp" aria-label="GitHub">
 					<IconGitHub />
 				</v-btn>
 				<v-btn
