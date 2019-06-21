@@ -8,7 +8,6 @@
 							dark
 							class="primary pa-2 elevation-9"
 							data-aos="fade-up"
-							:data-aos-delay="100 * i"
 							:data-aos-offset="-50 * i"
 						>
 							<v-card-title
