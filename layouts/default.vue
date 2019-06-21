@@ -44,16 +44,16 @@ body,
 	letter-spacing: 4px !important;
 }
 
-.sectionAngle {
+.angle {
 	margin-top: 10vh;
-	margin-bottom: 10vh;
+	margin-bottom: 15vh;
 }
-.sectionAngle::before,
-.sectionAngle::after {
+.angle::before,
+.angle::after {
 	position: absolute;
-	content: "";
+	content: '';
 	width: 100%;
-	height: 100px;
+	height: 15vh;
 	background-color: #111111;
 	transform-origin: top left;
 	transform: skewY(-3deg);

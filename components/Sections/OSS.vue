@@ -1,5 +1,5 @@
 <template>
-	<section id="oss">
+	<section id="oss" class="angle">
 		<v-layout align-center column wrap class="py-5 primary">
 			<v-flex xs12>
 				<v-container grid-list-xl>
@@ -53,21 +53,3 @@ export default {
 	},
 };
 </script>
-
-<style>
-#oss {
-	margin-top: 10vh;
-	margin-bottom: 10vh;
-}
-
-#oss::before,
-#oss::after {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100px;
-	background-color: #111111;
-	transform-origin: top left;
-	transform: skewY(-3deg);
-}
-</style>

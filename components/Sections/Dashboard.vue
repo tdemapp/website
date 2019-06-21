@@ -1,5 +1,5 @@
 <template>
-	<section id="dashboard" class="sectionAngle">
+	<section id="dashboard" class="angle">
 		<v-layout align-center row wrap class="py-5 primary">
 			<v-flex xs12>
 				<v-container grid-list-xl>
