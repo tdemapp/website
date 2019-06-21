@@ -47,12 +47,16 @@ module.exports = {
 			Disallow: '',
 		},
 	],
+	// Nuxt Markdown parser
+	markdownit: {
+    injected: true
+	},
 	// Global CSS
 	css: ['~/assets/style/app.styl'],
 	// Plugins to load before mounting the App
 	plugins: ['@/plugins/vuetify', '@/plugins/aos'],
 	// Nuxt.js modules
-	modules: ['@nuxtjs/robots', '@nuxtjs/pwa', 'svg-to-vue-component/nuxt', 'vue-scrollto/nuxt'],
+	modules: ['@nuxtjs/robots', '@nuxtjs/markdownit', '@nuxtjs/pwa', 'svg-to-vue-component/nuxt', 'vue-scrollto/nuxt'],
 	// Build configuration
 	build: {
 		// You can extend webpack config here

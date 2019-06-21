@@ -1,71 +1,26 @@
 <template>
-	<v-layout align-center justify-center row wrap class="py-5 transparent">
+	<v-layout align-center justify-center row wrap class="transparent">
 		<v-flex xs12 md10 lg8 xl6>
 			<v-container grid-list-xl>
 				<v-layout row wrap align-center>
-					<v-flex xs12>
+
+					<v-flex xs12 v-for="(release, i) in releases" :key='i'>
 						<v-card
-							class="transparent elevation-0"
+							dark
+							class="primary pa-2 elevation-9"
 							data-aos="fade-up"
-							data-aos-delay="50"
+							:data-aos-offset="-50 * i"
 						>
-							<v-responsive height="20vh" class="grey lighten-3" />
+							<v-card-title primary-title class="display-1 text-spaced-button text-xs-center font-weight-black text-uppercase">
+								<span v-text="release.tag_name" />
+							</v-card-title>
+							
+							<v-divider class='mx-2' />
+
+							<v-card-text v-html='$md.render(release.body)' />
 						</v-card>
 					</v-flex>
-					<v-flex xs12>
-						<v-card
-							class="transparent elevation-0"
-							data-aos="fade-up"
-							data-aos-delay="100"
-						>
-							<v-responsive height="20vh" class="grey lighten-3" />
-						</v-card>
-					</v-flex>
-					<v-flex xs12>
-						<v-card
-							class="transparent elevation-0"
-							data-aos="fade-up"
-							data-aos-delay="150"
-						>
-							<v-responsive height="20vh" class="grey lighten-3" />
-						</v-card>
-					</v-flex>
-					<v-flex xs12>
-						<v-card
-							class="transparent elevation-0"
-							data-aos="fade-up"
-							data-aos-delay="200"
-						>
-							<v-responsive height="20vh" class="grey lighten-3" />
-						</v-card>
-					</v-flex>
-					<v-flex xs12>
-						<v-card
-							class="transparent elevation-0"
-							data-aos="fade-up"
-							data-aos-delay="250"
-						>
-							<v-responsive height="20vh" class="grey lighten-3" />
-						</v-card>
-					</v-flex>
-					<v-flex xs12>
-						<v-card
-							class="transparent elevation-0"
-							data-aos="fade-up"
-							data-aos-delay="300"
-						>
-							<v-responsive height="20vh" class="grey lighten-3" />
-						</v-card>
-					</v-flex>
-					<v-flex xs12>
-						<v-card
-							class="transparent elevation-0"
-							data-aos="fade-up"
-							data-aos-delay="350"
-						>
-							<v-responsive height="20vh" class="grey lighten-3" />
-						</v-card>
-					</v-flex>
+
 				</v-layout>
 			</v-container>
 		</v-flex>
@@ -77,15 +32,22 @@ export default {
 	metaInfo: {
 		title: 'FAQ',
 	},
-	created() {
+	created () {
 		fetch('https://api.github.com/repos/tdemapp/manager/releases')
-			.then((res) => res.json())
-			.then((json) => {
-				console.log(json);
-			})
-			.catch((err) => {
-				throw new Error(err);
+		.then(res => res.json())
+		.then(json => {
+			json.forEach(el => {
+				this.releases.push(el)
 			});
+		})
+		.catch(err => {
+			throw new Error(err)
+		})
+	},
+	data () {
+		return {
+			releases: [],
+		}
 	},
 	head() {
 		return {
