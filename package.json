@@ -17,6 +17,7 @@
     "@nuxtjs/robots": "^2.2.0",
     "aos": "^3.0.0-beta.6",
     "nuxt": "^2.8.0",
+    "nuxt-svg-loader": "^1.0.1",
     "svg-to-vue-component": "^0.3.8",
     "vue-scrollto": "^2.15.0",
     "vuetify": "^1.5.14"
