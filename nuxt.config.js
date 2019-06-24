@@ -23,19 +23,14 @@ module.exports = {
 		failedColor: '#f44336',
 		height: '3px',
 	},
-	css: [
-		'~/assets/style/app.styl'
-	],
-	plugins: [
-		'@/plugins/vuetify',
-		'@/plugins/aos'
-	],
+	css: ['~/assets/style/app.styl'],
+	plugins: ['@/plugins/vuetify', '@/plugins/aos'],
 	modules: [
 		[
 			'@nuxtjs/markdownit',
 			{
 				injected: true,
-			}
+			},
 		],
 		[
 			'@nuxtjs/redirect-module',
@@ -43,14 +38,14 @@ module.exports = {
 				{ from: '^/chrome', to: downloads.chrome, statusCode: 301 },
 				{ from: '^/firefox', to: downloads.firefox, statusCode: 301 },
 				{ from: '^/opera', to: downloads.opera, statusCode: 301 },
-			]
+			],
 		],
 		[
 			'@nuxtjs/robots',
 			{
 				UserAgent: '*',
 				Disallow: '',
-			}
+			},
 		],
 		[
 			'@nuxtjs/pwa',
@@ -76,7 +71,7 @@ module.exports = {
 				icon: {
 					sizes: [16, 128, 144, 152, 192, 256, 512],
 				},
-			}
+			},
 		],
 		'nuxt-svg-loader',
 		'vue-scrollto/nuxt',

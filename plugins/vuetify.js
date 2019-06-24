@@ -15,7 +15,7 @@ import Vuetify, {
 	VFooter,
 	VLayout,
 	VResponsive,
-	VSpacer,	
+	VSpacer,
 	VToolbar,
 	VToolbarItems,
 } from 'vuetify/lib';
