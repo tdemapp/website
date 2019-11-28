@@ -46,10 +46,10 @@ body,
 	letter-spacing: 4px !important;
 }
 .theme--dark.v-card > .v-card__text {
-	color: #FFFFFF!important;
+	color: #ffffff !important;
 }
 .theme--light.v-card > .v-card__text {
-	color: #111111!important;
+	color: #111111 !important;
 }
 
 .text-spaced {

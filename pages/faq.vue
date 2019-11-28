@@ -1,13 +1,18 @@
 <template>
 	<v-container>
 		<v-row align="center" justify="center">
-			<v-col cols="12" md="10" lg="8" xl="6" v-for="(question, i) in questions" :key="i" data-aos="fade-up"
-					:data-aos-delay="i * 100"
-					:data-aos-offset="-50 * i">
-				<v-card
-					dark
-					class="primary pa-2 elevation-9"
-				>
+			<v-col
+				cols="12"
+				md="10"
+				lg="8"
+				xl="6"
+				v-for="(question, i) in questions"
+				:key="i"
+				data-aos="fade-up"
+				:data-aos-delay="i * 100"
+				:data-aos-offset="-50 * i"
+			>
+				<v-card dark class="primary pa-2 elevation-9">
 					<v-card-title primary-title>
 						<span class="display-1 mr-3" v-text="question.emoji" />
 						<span

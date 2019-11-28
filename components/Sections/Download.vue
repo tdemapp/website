@@ -1,7 +1,13 @@
 <template>
 	<section id="download">
 		<v-container class="grey lighten-5">
-			<v-row align="center" justify="center" class="ma-4" data-aos="fade-down" data-aos-easing="ease-in-out-back">
+			<v-row
+				align="center"
+				justify="center"
+				class="ma-4"
+				data-aos="fade-down"
+				data-aos-easing="ease-in-out-back"
+			>
 				<h1
 					class="primary--text display-3 text-spaced header text-center font-weight-black text-uppercase"
 				>
@@ -9,7 +15,16 @@
 				</h1>
 			</v-row>
 			<v-row align="center" justify="center">
-				<v-col cols="12" sm="8" md="3" lg="2" class="ma-4" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="100">
+				<v-col
+					cols="12"
+					sm="8"
+					md="3"
+					lg="2"
+					class="ma-4"
+					data-aos="zoom-in"
+					data-aos-easing="ease-in-out-back"
+					data-aos-delay="100"
+				>
 					<v-card dark href="/chrome" class="elevation-0 blue darken-2 downloadCard">
 						<v-img class="blue">
 							<v-card-title class="py-3">
@@ -25,7 +40,16 @@
 						</v-card-title>
 					</v-card>
 				</v-col>
-				<v-col cols="12" sm="8" md="3" lg="2" class="ma-4" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="200">
+				<v-col
+					cols="12"
+					sm="8"
+					md="3"
+					lg="2"
+					class="ma-4"
+					data-aos="zoom-in"
+					data-aos-easing="ease-in-out-back"
+					data-aos-delay="200"
+				>
 					<v-card
 						dark
 						href="/opera"
@@ -45,7 +69,16 @@
 						</v-card-title>
 					</v-card>
 				</v-col>
-				<v-col cols="12" sm="8" md="3" lg="2" class="ma-4" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="300">
+				<v-col
+					cols="12"
+					sm="8"
+					md="3"
+					lg="2"
+					class="ma-4"
+					data-aos="zoom-in"
+					data-aos-easing="ease-in-out-back"
+					data-aos-delay="300"
+				>
 					<v-card dark href="/opera" class="elevation-0 red darken-2 downloadCard">
 						<v-img class="red">
 							<v-card-title class="py-3">

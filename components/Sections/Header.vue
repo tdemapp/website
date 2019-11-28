@@ -5,14 +5,14 @@
 				<v-card class="transparent elevation-0">
 					<v-card-title>
 						<v-spacer />
-							<v-avatar
-								size="192px"
-								data-aos="fade-down"
-								data-aos-duration="1200"
-								data-aos-easing="ease-in-out-back"
-							>
-								<Logo alt="Logo" />
-							</v-avatar>
+						<v-avatar
+							size="192px"
+							data-aos="fade-down"
+							data-aos-duration="1200"
+							data-aos-easing="ease-in-out-back"
+						>
+							<Logo alt="Logo" />
+						</v-avatar>
 						<v-spacer />
 					</v-card-title>
 
