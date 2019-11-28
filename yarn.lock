@@ -966,7 +966,7 @@
     loader-utils "^1.1.0"
     markdown-it "^8.3.1"
 
-"@nuxtjs/markdownit@^1.2.5":
+"@nuxtjs/markdownit@^1.2.7":
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/@nuxtjs/markdownit/-/markdownit-1.2.7.tgz#23ad23c924be686f55f1401c664a7f2166558f67"
   integrity sha512-dpn0pJme4rYsxCiBgljKjZkTxuToAd5e95RZU945lJwYxj7hYZXH3DTWewXK/gYgJMWIQEaiscd436XbT6JERQ==
@@ -974,7 +974,7 @@
     "@nuxtjs/markdownit-loader" "^1.1.1"
     raw-loader "^3.1.0"
 
-"@nuxtjs/pwa@^3.0.0-beta.16":
+"@nuxtjs/pwa@^3.0.0-beta.19":
   version "3.0.0-beta.19"
   resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-3.0.0-beta.19.tgz#4685c8137a5b588126b3ee4d469f6806423f958f"
   integrity sha512-5c7CB2qrrlpu7BmJeWX9GN//uK1SiEzBbT+ykH11ZfUxQyXiO3QTm1f6tTOnG/P5v4kRIGYdBr0wmRbA/Hv1cw==
@@ -986,12 +986,12 @@
     jimp-compact "^0.8.0"
     workbox-cdn "^4.3.1"
 
-"@nuxtjs/redirect-module@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/redirect-module/-/redirect-module-0.2.0.tgz#579eddd2278f421a25be23c1ecbad15d712ad39e"
-  integrity sha512-dXrjeNW7uvsPq2/v1gbdfnUvzIpw7qAOpJacEEYUyLAHuhnDhG58Cp7xJOKu0l4bLoTAnj8GKfVdoM3ze1cd9A==
+"@nuxtjs/redirect-module@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/redirect-module/-/redirect-module-0.3.1.tgz#90a6986882337401cb0576cdf9479d4e3b552cce"
+  integrity sha512-yL2unrYfUSqs+4cUtkQvEQMsuTeCOlQd+Y5sTqMZzWBadF8h01tCVDG95zmOTNIiCupb+sQho2Tixwl1f826aw==
 
-"@nuxtjs/robots@^2.2.0":
+"@nuxtjs/robots@^2.4.2":
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/robots/-/robots-2.4.2.tgz#9a96c91abb70e39b414eec502ef1cf7d5ef0235e"
   integrity sha512-BW3qhvxlPBKlMkZHtARFPeliFraiZHS28G3j4qgRbSfOBtHC0yDX3Dnq1LkQMzAbPfbw6A1L3sdjgBVZZnfFAw==
@@ -1393,14 +1393,14 @@ anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-aos@^3.0.0-beta.6:
-  version "3.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/aos/-/aos-3.0.0-beta.6.tgz#75148e3be4bb1add53f5a1828623bf82b67691e9"
-  integrity sha512-VLWrpq8bfAWcetynVHMMrqdC+89Qq/Ym6UBJbHB4crIwp3RR8uq1dNGgsFzoDl03S43rlVMK+na3r5+oUCZsYw==
+aos@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/aos/-/aos-2.3.4.tgz#eb1c29f5c1806a197cf6323080747547edd3db8e"
+  integrity sha512-zh/ahtR2yME4I51z8IttIt4lC1Nw0ktsFtmeDzID1m9naJnWXhCoARaCgNOGXb5CLy3zm+wqmRAEgMYB5E2HUw==
   dependencies:
-    classlist-polyfill "^1.2.0"
-    lodash.debounce "^4.0.8"
-    lodash.throttle "^4.1.1"
+    classlist-polyfill "^1.0.3"
+    lodash.debounce "^4.0.6"
+    lodash.throttle "^4.0.1"
 
 aproba@^1.0.3, aproba@^1.1.1:
   version "1.2.0"
@@ -1927,7 +1927,7 @@ check-types@^8.0.3:
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-8.0.3.tgz#3356cca19c889544f2d7a95ed49ce508a0ecf552"
   integrity sha512-YpeKZngUmG65rLudJ4taU7VLkOCTMhNl/u4ctNC56LQS/zJTyNH0Lrtwm1tfTsbLlwvlfsA2d1c8vCf/Kh2KwQ==
 
-chokidar@^2.0.2, chokidar@^2.1.8:
+chokidar@^2.0.2:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
   integrity sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg==
@@ -1996,7 +1996,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classlist-polyfill@^1.2.0:
+classlist-polyfill@^1.0.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/classlist-polyfill/-/classlist-polyfill-1.2.0.tgz#935bc2dfd9458a876b279617514638bcaa964a2e"
   integrity sha1-k1vC39lFiodrJ5YXUUY4vKqWSi4=
@@ -2937,14 +2937,14 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-prettier@^4.1.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-4.3.0.tgz#c55c1fcac8ce4518aeb77906984e134d9eb5a4f0"
-  integrity sha512-sZwhSTHVVz78+kYD3t5pCWSYEdVSBR0PXnwjDRsUs8ytIrK8PLXw+6FKp8r3Z7rx4ZszdetWlXYKOHoUrrwPlA==
+eslint-config-prettier@^6.7.0:
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.7.0.tgz#9a876952e12df2b284adbd3440994bf1f39dfbb9"
+  integrity sha512-FamQVKM3jjUVwhG4hEMnbtsq7xOIDm+SY5iBPfR8gKsJoAB2IQnNF+bk1+8Fy44Nq7PPJaLvkRxILYdJWoguKQ==
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-plugin-prettier@^3.0.1:
+eslint-plugin-prettier@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.1.tgz#507b8562410d02a03f0ddc949c616f877852f2ba"
   integrity sha512-A+TZuHZ0KU0cnn56/9mfR7/KjUJ9QNVXUhwvRFSR7PGPe0zQR6PTkmyqg1AtUUEOzTqeRsUwyKFh0oVZKVCrtA==
@@ -4367,7 +4367,7 @@ lodash.clonedeep@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
-lodash.debounce@^4.0.8:
+lodash.debounce@^4.0.6:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
@@ -4397,7 +4397,7 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "^3.0.0"
 
-lodash.throttle@^4.1.1:
+lodash.throttle@^4.0.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
@@ -4886,12 +4886,12 @@ node-res@^5.0.1:
     on-finished "^2.3.0"
     vary "^1.1.2"
 
-nodemon@^1.18.10:
-  version "1.19.4"
-  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.19.4.tgz#56db5c607408e0fdf8920d2b444819af1aae0971"
-  integrity sha512-VGPaqQBNk193lrJFotBU8nvWZPqEZY2eIzymy2jjY0fJ9qIsxA0sxQ8ATPl0gZC645gijYEc1jtZvpS8QWzJGQ==
+nodemon@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.1.tgz#cec436f8153ad5d3e6c27c304849a06cabea71cc"
+  integrity sha512-UC6FVhNLXjbbV4UzaXA3wUdbEkUZzLGgMGzmxvWAex5nzib/jhcSHVFlQODdbuUHq8SnnZ4/EABBAbC3RplvPg==
   dependencies:
-    chokidar "^2.1.8"
+    chokidar "^3.2.2"
     debug "^3.2.6"
     ignore-by-default "^1.0.1"
     minimatch "^3.0.4"
@@ -5011,7 +5011,7 @@ nuxt-svg-loader@^1.0.1:
     consola "^2.3.2"
     svg-to-vue-component "^0.3.1"
 
-nuxt@^2.8.0:
+nuxt@^2.10.2:
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.10.2.tgz#15ade22dfe281095865df18e6f6e861fcad1ff95"
   integrity sha512-BDeio2WwwMrW4bctRYNHq1su+rwIJzuo87bAZv8Xs2/Gw5g4bPIGZTiKGx6tSZBjxnONsGDOxhFOWZ5JpQEtrQ==
@@ -6037,7 +6037,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^1.16.4, prettier@^1.18.2:
+prettier@^1.18.2, prettier@^1.19.1:
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
@@ -6975,7 +6975,7 @@ stylus-loader@^3.0.2:
     lodash.clonedeep "^4.5.0"
     when "~3.6.x"
 
-stylus@^0.54.5:
+stylus@^0.54.7:
   version "0.54.7"
   resolved "https://registry.yarnpkg.com/stylus/-/stylus-0.54.7.tgz#c6ce4793965ee538bcebe50f31537bfc04d88cd2"
   integrity sha512-Yw3WMTzVwevT6ZTrLCYNHAFmanMxdylelL3hkWNgPMeTCpMwpV3nXjpOHuBXtFv7aiO2xRuQS6OoAdgkNcSNug==
@@ -7545,7 +7545,7 @@ vue-router@~3.0.7:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.7.tgz#b36ca107b4acb8ff5bc4ff824584059c23fcb87b"
   integrity sha512-utJ+QR3YlIC/6x6xq17UMXeAfxEvXA0VKD3PiSio7hBOZNusA1jXcbxZxVEfJunLp48oonjTepY8ORoIlRx/EQ==
 
-vue-scrollto@^2.15.0:
+vue-scrollto@^2.17.1:
   version "2.17.1"
   resolved "https://registry.yarnpkg.com/vue-scrollto/-/vue-scrollto-2.17.1.tgz#cd62ee0b98cf7e2ba9fd94f029addcd093978a48"
   integrity sha512-uxOJXg6cZL88B+hTXRHDJMR+gHGiaS70ZTNk55fE5Z2TdwyIx9K/IHoNeTrtBrM6u3FASAIymKjZaQLmDf8Ykg==
