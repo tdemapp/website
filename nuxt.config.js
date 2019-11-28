@@ -9,6 +9,9 @@ const downloads = {
 
 module.exports = {
 	mode: 'spa',
+	generate: {
+		dir: "public"
+	},
 	head: {
 		title: titleFull,
 		meta: [
