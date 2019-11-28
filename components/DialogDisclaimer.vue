@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<v-btn dark flat @click="dialog = true">
+		<v-btn dark text @click="dialog = true">
 			<IconInfo width="16px" class="mr-2" />
 			<span class="caption text-spaced-button text-uppercase">Disclaimer</span>
 		</v-btn>
@@ -18,13 +18,13 @@
 					<v-spacer />
 
 					<v-toolbar-items class="hidden-sm-and-down">
-						<v-btn flat @click="dialog = false">
+						<v-btn text @click="dialog = false">
 							<IconClose />
 						</v-btn>
 					</v-toolbar-items>
 				</v-toolbar>
 
-				<v-card-text class="mb-1">
+				<v-card-text class="mb-1 mt-4">
 					<span class="primary--text font-weight-thin">
 						TDEM is <strong>NOT</strong> affiliated with Twitter or TweetDeck in any
 						way.
@@ -33,7 +33,7 @@
 
 				<v-divider class="mx-2" />
 
-				<v-card-text class="mt-1">
+				<v-card-text class="mt-4">
 					<span class="primary--text font-weight-thin">
 						TDEM uses the
 						<a
@@ -52,7 +52,7 @@
 				</v-card-text>
 
 				<v-card-actions>
-					<v-btn flat large block color="primary" @click="dialog = false">
+					<v-btn text large block color="primary" @click="dialog = false">
 						<IconCheck class="mr-3" />
 						I understand
 					</v-btn>

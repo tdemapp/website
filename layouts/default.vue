@@ -26,7 +26,7 @@ export default {
 
 html,
 body,
-.theme--light.application {
+.theme--light.v-application {
 	background: #fafcff !important;
 	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
 	-webkit-font-smoothing: antialiased;
@@ -34,16 +34,27 @@ body,
 	-webkit-transition: all 0.5s !important;
 	transition: all 0.5s !important;
 }
-.v-toolbar .v-toolbar__content {
+.v-toolbar .v-toolbar__content,
+.v-footer {
 	padding: 0 !important;
 }
-.text-spaced {
-	letter-spacing: 7px !important;
+.v-application .display-3 {
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
 }
+.v-application .caption,
 .text-spaced-button {
 	letter-spacing: 4px !important;
 }
+.theme--dark.v-card > .v-card__text {
+	color: #FFFFFF!important;
+}
+.theme--light.v-card > .v-card__text {
+	color: #111111!important;
+}
 
+.text-spaced {
+	letter-spacing: 7px !important;
+}
 .angle {
 	margin-top: 10vh;
 	margin-bottom: 15vh;

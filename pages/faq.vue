@@ -1,35 +1,30 @@
 <template>
-	<v-layout align-center justify-center row wrap class="transparent">
-		<v-flex xs12 md10 lg8 xl6>
-			<v-container grid-list-xl>
-				<v-layout row wrap align-center>
-					<v-flex xs12 v-for="(question, i) in questions" :key="i">
-						<v-card
-							dark
-							class="primary pa-2 elevation-9"
-							data-aos="fade-up"
-							:data-aos-delay="(i * 100)"
-							:data-aos-offset="-50 * i"
-						>
-							<v-card-title primary-title>
-								<span class="display-1 mr-3" v-text="question.emoji" />
-								<span
-									class="headline font-weight-black text-uppercase"
-									v-text="question.title"
-								/>
-							</v-card-title>
+	<v-container>
+		<v-row align="center" justify="center">
+			<v-col cols="12" md="10" lg="8" xl="6" v-for="(question, i) in questions" :key="i" data-aos="fade-up"
+					:data-aos-delay="i * 100"
+					:data-aos-offset="-50 * i">
+				<v-card
+					dark
+					class="primary pa-2 elevation-9"
+				>
+					<v-card-title primary-title>
+						<span class="display-1 mr-3" v-text="question.emoji" />
+						<span
+							class="headline font-weight-black text-uppercase"
+							v-text="question.title"
+						/>
+					</v-card-title>
 
-							<v-divider class="mx-2" />
+					<v-divider class="mx-2" />
 
-							<v-card-text>
-								<span class="body-1" v-html="$md.render(question.body)" />
-							</v-card-text>
-						</v-card>
-					</v-flex>
-				</v-layout>
-			</v-container>
-		</v-flex>
-	</v-layout>
+					<v-card-text>
+						<span class="body-1" v-html="$md.render(question.body)" />
+					</v-card-text>
+				</v-card>
+			</v-col>
+		</v-row>
+	</v-container>
 </template>
 
 <script>
