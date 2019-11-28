@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "name": "tdem-app",
-  "alias": "tdem.app",
+  "name": "website",
+  "alias": "beta.tdem.app",
   "public": true,
-  "builds": [
-    { "src": "package.json", "use": "@now/static-build" }
+  "github": {
+    "autoAlias": true,
+    "enabled": true
+  },
+  "regions": [
+    "sfo1",
+    "bru1",
+    "lhr1"
   ]
 }

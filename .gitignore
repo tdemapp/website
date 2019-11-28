@@ -5,25 +5,24 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Local env files
-.env.local
-.env.*.local
-
 # Dependency directories
 node_modules/
 
-# Disttribution directory
-/dist
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# nuxt.js build output
+.nuxt/
+
+# Nuxt generate
+dist/
+
+# Nuxt PWA
+sw.*
 
 # MacOS DS Store file
 .DS_Store
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw*
 

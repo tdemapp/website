@@ -1,7 +1,7 @@
 <div align='center'>
 
   <a href='https://github.com/tdemapp/tdem/releases'>
-    <img alt='TweetDeck Extension Manager' width='256px' src='https://raw.githubusercontent.com/tdemapp/assets/master/icon-1024.png' />
+    <img alt='TweetDeck Extension Manager' src='https://raw.githubusercontent.com/tdemapp/assets/master/branding/Promotional-Marquee.png' />
   </a>
 
   [![License](https://img.shields.io/badge/license-mit-blue.svg?longCache=true&style=for-the-badge)](https://github.com/tdemapp/website/blob/master/LICENSE) 
@@ -11,13 +11,17 @@
   <br />
 </div>
 
-## Development:
+## 🚀 Development:
 
+Clone: 
 ```shell
 # Clone
 $ git clone https://github.com/tdemapp/website.git tdem-app
 $ cd tdem-app/
+```
 
+Running:
+```shell
 # Install dependencies
 $ npm install # yarn
 
@@ -25,18 +29,12 @@ $ npm install # yarn
 $ npm run dev # yarn dev
 
 # Building for production
-$ npm run build # yarn build
-
-# Running tests
-$ npm run test # yarn test
-
-# Linting
-$ npm run lint # yarn lint
+$ npm run generate # yarn generate
 
 # Running prettier
 $ npm run prettier # yarn prettier
 ```
 
-## License:
+## 📄 License:
 
 MIT © [Ben Dixon](https://github.com/tdemapp/website/blob/master/LICENSE)

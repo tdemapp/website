@@ -1,29 +1,32 @@
 {
-  "name": "tdem",
-  "version": "0.1.0",
+  "name": "tdem-app",
+  "version": "1.0.0",
+  "author": "N U R O ™",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "prettier": "prettier --config .prettierrc.json --write \"src/**/*.{js,css,vue}\"",
-    "now-build": "vue-cli-service build"
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "prettier": "prettier --config .prettierrc.json --write \"**/*.{js,css,vue}\""
   },
   "dependencies": {
-    "vue": "^2.5.21",
-    "vuetify": "^1.3.0",
-    "vuex": "^3.0.1"
+    "@nuxtjs/markdownit": "^1.2.7",
+    "@nuxtjs/pwa": "^3.0.0-beta.19",
+    "@nuxtjs/redirect-module": "^0.3.1",
+    "@nuxtjs/robots": "^2.4.2",
+    "aos": "^2.3.4",
+    "nuxt": "^2.10.2",
+    "nuxt-svg-loader": "^1.0.1",
+    "svg-to-vue-component": "^0.3.8",
+    "vue-scrollto": "^2.17.1",
+    "vuetify": "^1.5.14"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.2.0",
-    "@vue/cli-plugin-eslint": "^3.2.0",
-    "@vue/cli-service": "^3.2.0",
-    "@vue/eslint-config-prettier": "^4.0.1",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "prettier": "^1.15.3",
-    "vue-cli-plugin-vuetify": "^0.4.6",
-    "vue-template-compiler": "^2.5.21"
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^2.0.1",
+    "prettier": "^1.19.1",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
   }
 }
