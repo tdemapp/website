@@ -1,6 +1,30 @@
 <template>
 	<section id="download">
 		<v-layout align-center justify-center row wrap class="py-5 transparent">
+			<v-flex xs12>
+				<v-card class="elevation-0 transparent">
+					<v-card-text
+						class="py-0 text-xs-center"
+						data-aos="fade-down"
+						data-aos-easing="ease-in-out-back"
+					>
+						<h1
+							class="primary--text display-3 text-spaced header text-xs-center font-weight-black text-uppercase"
+						>
+							Download
+						</h1>
+					</v-card-text>
+				</v-card>
+			</v-flex>
+
+			<v-flex xs12>
+				<v-layout row align-center justify-center>
+					<v-flex xs12 sm10 md8 lg6>
+						<v-divider data-aos="zoom-in" data-aos-easing="ease-in-out-back" class="ma-4" />
+					</v-flex>
+				</v-layout>
+			</v-flex>
+
 			<v-flex xs12 sm8 md3 lg2 class="ma-4" data-aos="zoom-in" data-aos-easing="ease-in-out-back">
 				<v-card dark href="/chrome" class="elevation-0 blue darken-2 downloadCard">
 					<v-img class="blue">
