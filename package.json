@@ -11,6 +11,9 @@
     "generate": "nuxt generate",
     "prettier": "prettier --config .prettierrc.json --write \"**/*.{js,css,vue}\""
   },
+  "engines": {
+    "node": "10.x"
+  },
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.7",
     "@nuxtjs/pwa": "^3.0.0-beta.19",
