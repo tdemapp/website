@@ -21,68 +21,30 @@ export default {
 		],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
 	},
+
 	// Customize the progress-bar color
 	loading: {
 		color: '#fff',
 		failedColor: '#f44336',
 		height: '3px',
 	},
+
 	// Plugins to load before mounting the App
 	plugins: ['@/plugins/aos'],
+
 	// Nuxt.js dev-modules
 	buildModules: ['@nuxtjs/vuetify'],
+
 	// Nuxt.js modules
 	modules: [
-		[
-			'@nuxtjs/markdownit',
-			{
-				injected: true,
-			},
-		],
-		[
-			'@nuxtjs/redirect-module',
-			[
-				{ from: '^/chrome', to: downloads.chrome, statusCode: 301 },
-				{ from: '^/firefox', to: downloads.firefox, statusCode: 301 },
-				{ from: '^/opera', to: downloads.opera, statusCode: 301 },
-			],
-		],
-		[
-			'@nuxtjs/robots',
-			{
-				UserAgent: '*',
-				Disallow: '',
-			},
-		],
-		[
-			'@nuxtjs/pwa',
-			{
-				meta: {
-					favicon: true,
-					name: fullTitle,
-					description: app.description,
-					lang: 'en',
-					theme_color: '#212121',
-				},
-				manifest: {
-					name: app.title,
-					short_name: app.title,
-					description: app.description,
-					lang: 'en',
-					start_url: '/',
-					display: 'standalone',
-					orientation: 'portrait',
-					background_color: '#212121',
-					theme_color: '#212121',
-				},
-				icon: {
-					sizes: [16, 128, 144, 152, 192, 256, 512],
-				},
-			},
-		],
+		'@nuxtjs/markdownit',
+		'@nuxtjs/redirect-module',
+		'@nuxtjs/robots',
+		'@nuxtjs/pwa',
 		'nuxt-svg-loader',
 		'vue-scrollto/nuxt',
 	],
+
 	// Vuetify module configuration
 	vuetify: {
 		theme: {
@@ -98,4 +60,47 @@ export default {
 			},
 		},
 	},
+
+	// Markdown module configuration
+	markdownit: {
+		injected: true,
+	},
+
+	// Redirect module routes
+	redirect: [
+		{ from: '^/chrome', to: downloads.chrome, statusCode: 301 },
+		{ from: '^/firefox', to: downloads.firefox, statusCode: 301 },
+		{ from: '^/opera', to: downloads.opera, statusCode: 301 },
+	],
+	
+	// Robots.txt module configuration
+	robots: {
+		UserAgent: '*',
+		Disallow: '',
+	},
+	
+	// Progressive Web App configuration
+	pwa: {
+		meta: {
+			favicon: true,
+			name: fullTitle,
+			description: app.description,
+			lang: 'en',
+			theme_color: '#212121',
+		},
+		manifest: {
+			name: app.title,
+			short_name: app.title,
+			description: app.description,
+			lang: 'en',
+			start_url: '/',
+			display: 'standalone',
+			orientation: 'portrait',
+			background_color: '#212121',
+			theme_color: '#212121',
+		},
+		icon: {
+			sizes: [16, 128, 144, 152, 192, 256, 512],
+		},
+	}
 };
