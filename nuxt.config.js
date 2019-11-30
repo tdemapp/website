@@ -11,7 +11,9 @@ const downloads = {
 
 export default {
 	mode: 'spa',
-	// Headers of the page
+	generate: {
+		dir: "public"
+	},
 	head: {
 		titleTemplate: '%s - ' + app.title,
 		title: fullTitle,
