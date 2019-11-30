@@ -12,7 +12,7 @@
 				:data-aos-delay="i * 100"
 				:data-aos-offset="-50 * i"
 			>
-				<v-card dark class="primary pa-2 elevation-9">
+				<v-card dark class="primary pa-2 elevation-0 defaultHover">
 					<v-card-title primary-title>
 						<span class="display-1 mr-3" v-text="question.emoji" />
 						<span

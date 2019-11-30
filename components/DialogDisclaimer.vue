@@ -10,9 +10,9 @@
 				<v-toolbar flat dark color="primary">
 					<v-card-title>
 						<IconInfo class="mr-2" />
-						<h1 class="text-spaced text-uppercase font-weight-black ml-2">
+						<h4 class="text-spaced text-uppercase font-weight-black ml-2">
 							Disclaimer
-						</h1>
+						</h4>
 					</v-card-title>
 
 					<v-spacer />
@@ -24,16 +24,18 @@
 					</v-toolbar-items>
 				</v-toolbar>
 
-				<v-card-text class="mb-1 mt-4">
+				<v-card-text class="mt-4">
 					<span class="primary--text font-weight-thin">
 						TDEM is <strong>NOT</strong> affiliated with Twitter or TweetDeck in any
 						way.
 					</span>
 				</v-card-text>
 
-				<v-divider class="mx-2" />
+				<v-card-text>
+					<v-divider class="mx-2" />
+				</v-card-text>
 
-				<v-card-text class="mt-4">
+				<v-card-text>
 					<span class="primary--text font-weight-thin">
 						TDEM uses the
 						<a

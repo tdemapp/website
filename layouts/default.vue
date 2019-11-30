@@ -55,6 +55,20 @@ body,
 .text-spaced {
 	letter-spacing: 7px !important;
 }
+
+.defaultHover {
+	transition: all 0.5s;
+}
+.defaultHover:hover {
+	transition: all 0.5s;
+	box-shadow: 0 8px 15px rgba(33, 33, 33, 0.2) !important;
+	transform: translateY(-4px) !important;
+}
+.defaultHover:active {
+	transition: all 0.5s;
+	transform: translateY(2px) !important;
+}
+
 .angle {
 	margin-top: 10vh;
 	margin-bottom: 15vh;

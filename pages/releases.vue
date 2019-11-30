@@ -4,42 +4,25 @@
 			<v-responsive height="100vh" class="transparent" v-if="releases === false">
 				<v-layout row wrap align-center justify-center fill-height>
 					<v-card class="transparent elevation-0">
-						<v-toolbar flat extended class="transparent pt-4 pb-2">
+						<v-card-title>
 							<v-spacer />
-							<v-avatar
-								size="192px"
-								data-aos="fade-down"
-								data-aos-duration="1200"
-								data-aos-easing="ease-in-out-back"
-							>
-								<IconWarning width="128px" height="128px" />
-							</v-avatar>
+								<v-avatar tile size="128px" data-aos="fade-down" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
+									<IconWarning width="128px" height="128px" />
+								</v-avatar>
 							<v-spacer />
-						</v-toolbar>
+						</v-card-title>
 
-						<v-card-text
-							class="py-0"
-							data-aos="fade-left"
-							data-aos-duration="1100"
-							data-aos-easing="ease-in-out-back"
-						>
-							<h1
-								class="primary--text display-3 text-center font-weight-black text-uppercase"
-							>
+						<v-card-text class="py-0" data-aos="fade-left" data-aos-duration="1100" data-aos-easing="ease-in-out-back">
+							<h1 class="primary--text display-3 text-center font-weight-black text-uppercase">
 								No releases found
 							</h1>
 						</v-card-text>
 
-						<v-card-text
-							data-aos="fade-right"
-							data-aos-duration="1200"
-							data-aos-easing="ease-in-out-back"
-						>
-							<p
-								class="primary--text caption text-spaced text-center text-uppercase font-weight-thin"
-							>
+						<v-card-text data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
+							<p class="primary--text caption text-spaced text-center text-uppercase font-weight-thin">
 								There was an error fetching the
-								<br />release data from GitHub
+								<br />
+								release data from GitHub
 							</p>
 						</v-card-text>
 					</v-card>
@@ -48,16 +31,8 @@
 			<v-container grid-list-xl v-else>
 				<v-layout row wrap align-center>
 					<v-flex xs12 v-for="(release, i) in releases" :key="i">
-						<v-card
-							dark
-							class="primary pa-2 elevation-9"
-							data-aos="fade-up"
-							:data-aos-offset="-50 * i"
-						>
-							<v-card-title
-								primary-title
-								class="headline text-spaced-button font-weight-black text-uppercase"
-							>
+						<v-card dark class="primary pa-2 elevation-9" data-aos="fade-up" :data-aos-offset="-50 * i">
+							<v-card-title primary-title class="headline text-spaced-button font-weight-black text-uppercase">
 								<span v-text="release.tag_name" />
 							</v-card-title>
 

@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import Dashboard from '~/components/Sections/Dashboard';
-import Download from '~/components/Sections/Download';
-import Extensions from '~/components/Sections/Extensions';
-import Header from '~/components/Sections/Header';
-import OSS from '~/components/Sections/OSS';
+import Dashboard from './index/dashboard';
+import Download from './index/download';
+import Extensions from './index/extensions';
+import Header from './index/header';
+import OSS from './index/oss';
 
 export default {
 	metaInfo: {
