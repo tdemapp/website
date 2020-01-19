@@ -1,15 +1,10 @@
 {
   "version": 2,
   "name": "website",
-  "alias": "beta.tdem.app",
+  "alias": "tailwind.tdem.app",
   "public": true,
   "github": {
     "autoAlias": true,
     "enabled": true
-  },
-  "regions": [
-    "sfo1",
-    "bru1",
-    "lhr1"
-  ]
+  }
 }
