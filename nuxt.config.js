@@ -29,7 +29,10 @@ export default {
 	},
 
 	// Plugins to load before mounting the App
-	plugins: ['@/plugins/aos'],
+	plugins: [{
+		src: "@/plugins/aos",
+		ssr: false
+	}],
 
 	// Nuxt.js dev-modules
 	buildModules: ['@nuxtjs/tailwindcss'],
