@@ -1,19 +1,21 @@
 const title = 'TDEM';
 const description = 'TweetDeck Extension Manager';
-const titleFull = title + ' | ' + description;
+const titleConcat = title + ' | ' + description;
 const downloads = {
 	chrome: 'https://chrome.google.com/webstore',
 	firefox: 'https://addons.mozilla.org',
 	opera: 'https://addons.opera.com',
 };
 
-module.exports = {
+export default {
 	mode: 'spa',
 	generate: {
-		dir: "public"
+		dir: 'public',
 	},
+
+	// Headers of the page
 	head: {
-		title: titleFull,
+		title: titleConcat,
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -21,20 +23,23 @@ module.exports = {
 		],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
 	},
+
+	//  Customize the progress-bar color
 	loading: {
 		color: '#ffffff',
 		failedColor: '#f44336',
 		height: '3px',
 	},
-	css: ['~/assets/style/app.styl'],
-	plugins: ['@/plugins/vuetify', '@/plugins/aos'],
+
+	// Plugins to load before mounting the App
+	plugins: ['@/plugins/aos'],
+
+	// Nuxt.js dev-modules
+	buildModules: ['@nuxtjs/tailwindcss'],
+
+	// Nuxt.js modules
 	modules: [
-		[
-			'@nuxtjs/markdownit',
-			{
-				injected: true,
-			},
-		],
+		['@nuxtjs/markdownit', { injected: true }],
 		[
 			'@nuxtjs/redirect-module',
 			[
@@ -44,18 +49,11 @@ module.exports = {
 			],
 		],
 		[
-			'@nuxtjs/robots',
-			{
-				UserAgent: '*',
-				Disallow: '',
-			},
-		],
-		[
 			'@nuxtjs/pwa',
 			{
 				meta: {
 					favicon: true,
-					name: titleFull,
+					name: titleConcat,
 					description: description,
 					lang: 'en',
 					theme_color: '#212121',
@@ -76,7 +74,13 @@ module.exports = {
 				},
 			},
 		],
-		'nuxt-svg-loader',
-		'vue-scrollto/nuxt',
+		[
+			'@nuxtjs/robots',
+			{
+				UserAgent: '*',
+				Disallow: '',
+			},
+		],
+		'@nuxtjs/svg',
 	],
 };

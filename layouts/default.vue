@@ -1,61 +1,70 @@
 <template>
-	<v-app>
-		<v-content>
-			<v-container fluid class="pa-0">
-				<nuxt />
-			</v-container>
-		</v-content>
-		<Footer />
-	</v-app>
+	<main>
+		<Navbar />
+		<nuxt />
+	</main>
 </template>
 
 <script>
-import Footer from '~/components/Footer';
+import Navbar from '~/components/Navbar.vue';
 
 export default {
 	components: {
-		Footer,
+		Navbar,
 	},
 };
 </script>
 
-<style>
-::-webkit-scrollbar {
-	display: none;
+<style lang="stylus">
+* {
+	transition: all 0.25s;
+	&::selection {
+		@apply bg-gray-500 text-white;
+	}
 }
 
-html,
-body,
-.theme--light.application {
-	background: #fafcff !important;
-	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-transition: all 0.5s !important;
-	transition: all 0.5s !important;
-}
-.v-toolbar .v-toolbar__content {
-	padding: 0 !important;
-}
-.text-spaced {
-	letter-spacing: 7px !important;
-}
-.text-spaced-button {
-	letter-spacing: 4px !important;
+html {
+	@apply antialiased font-sans;
 }
 
-.angle {
-	margin-top: 10vh;
-	margin-bottom: 15vh;
+body {
+  background-position: 0 0, 32px 32px;
+  background-attachment: fixed;
+  background-size: 64px 64px;
 }
-.angle::before,
-.angle::after {
-	position: absolute;
-	content: '';
-	width: 100%;
-	height: 15vh;
-	background-color: #111111;
-	transform-origin: top left;
-	transform: skewY(-3deg);
+
+.tracking-max {
+	letter-spacing: 7px;
+}
+
+.animatedButton {
+	transform: translateY(0);
+	&:hover {
+		transform: translateY(-4px);
+	}
+	&:active {
+		transform: translateY(4px);
+	}
+	&:focus {
+		border: none;
+	}
+}
+
+@media(prefers-color-scheme: light) {
+	html {
+		@apply bg-white;
+	}
+	body {
+		background-image: radial-gradient(#ccc 1px, transparent 1px), radial-gradient(#ccc 1px, transparent 1px);
+	}
+}
+
+@media(prefers-color-scheme: dark) {
+	html {
+		@apply bg-black;
+	}
+	body {
+		background-image: radial-gradient(#222 1px, transparent 1px), radial-gradient(#222 1px, transparent 1px);
+	}
 }
 </style>
