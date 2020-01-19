@@ -1,0 +1,5 @@
+.editorconfig
+.prettierignore
+.prettierrc.json
+.nuxt/
+public/
