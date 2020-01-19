@@ -113,7 +113,7 @@ import IconDashboard from '~/static/icons/dashboard.svg?inline';
 import IconDownload from '~/static/icons/download.svg?inline';
 import IconExtension from '~/static/icons/extensions.svg?inline';
 import IconGitHub from '~/static/icons/github.svg?inline';
-import IconOSS from '~/static/icons/OSS.svg?inline';
+import IconOSS from '~/static/icons/oss.svg?inline';
 
 export default {
 	components: {
