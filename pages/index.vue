@@ -35,7 +35,7 @@
 					>
 						<a
 							:href="githubBtnUrl"
-							class="m-2 md:m-8 py-3 px-16 flex flex-row flex-no-wrap rounded-full bg-black dark:bg-white focus:outline-none text-white dark:text-black text-base uppercase tracking-max font-bold animatedButton"
+							class="m-2 md:m-8 py-3 px-16 flex flex-row flex-no-wrap rounded-full border-2 border-black dark:border-white focus:outline-none text-black dark:text-white text-base uppercase tracking-max font-bold animatedButton"
 						>
 							<IconGitHub class="mr-4" />
 							GitHub
