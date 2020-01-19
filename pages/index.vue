@@ -2,22 +2,16 @@
 	<div>
 		<section class="flex flex-col items-center h-screen">
 			<div class="container flex flex-col items-center justify-center h-screen">
-				<h1
-					class="mb-2 text-2xl md:text-6xl font-black uppercase tracking-widest text-black dark:text-white"
-					data-aos="fade-left"
-					data-aos-easing="ease-in-out-back"
-					data-aos-duration="1100"
-				>
-					Extend Your Deck
-				</h1>
-				<h3
-					class="my-6 md:my-0 text-xs md:text-base text-center font-thin uppercase tracking-max text-gray-800 dark:text-gray-200"
-					data-aos="fade-right"
-					data-aos-easing="ease-in-out-back"
-					data-aos-duration="1200"
-				>
-					Install and manage extensions for TweetDeck
-				</h3>
+				<div data-aos="fade-left" data-aos-easing="ease-in-out-back" data-aos-duration="1100">
+					<h1 class="mb-2 text-2xl md:text-6xl font-black uppercase tracking-widest text-black dark:text-white">
+						Extend Your Deck
+					</h1>
+				</div>
+				<div data-aos="fade-right" data-aos-easing="ease-in-out-back" data-aos-duration="1200">
+					<h3 class="my-6 md:my-0 text-xs md:text-base text-center font-thin uppercase tracking-max text-gray-800 dark:text-gray-200">
+						Install and manage extensions for TweetDeck
+					</h3>
+				</div>
 
 				<div class="flex flex-row flex-wrap items-center justify-center">
 					<div
