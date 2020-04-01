@@ -1,82 +1,106 @@
-const title = 'TDEM';
-const description = 'TweetDeck Extension Manager';
-const titleFull = title + ' | ' + description;
+const app = {
+	title: 'TDEM',
+	description: 'TweetDeck Extension Manager',
+};
+const fullTitle = app.title + ' | ' + app.description;
 const downloads = {
 	chrome: 'https://chrome.google.com/webstore',
 	firefox: 'https://addons.mozilla.org',
 	opera: 'https://addons.opera.com',
 };
 
-module.exports = {
+export default {
 	mode: 'spa',
-	generate: {
-		dir: "public"
-	},
 	head: {
-		title: titleFull,
+		titleTemplate: '%s - ' + app.title,
+		title: fullTitle,
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-			{ hid: 'description', name: 'description', content: description },
+			{ hid: 'description', name: 'description', content: app.description },
 		],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
 	},
+
+	// Customize the progress-bar color
 	loading: {
-		color: '#ffffff',
+		color: '#fff',
 		failedColor: '#f44336',
 		height: '3px',
 	},
-	css: ['~/assets/style/app.styl'],
-	plugins: ['@/plugins/vuetify', '@/plugins/aos'],
+
+	// Plugins to load before mounting the App
+	plugins: ['@/plugins/aos'],
+
+	// Nuxt.js dev-modules
+	buildModules: ['@nuxtjs/vuetify'],
+
+	// Nuxt.js modules
 	modules: [
-		[
-			'@nuxtjs/markdownit',
-			{
-				injected: true,
-			},
-		],
-		[
-			'@nuxtjs/redirect-module',
-			[
-				{ from: '^/chrome', to: downloads.chrome, statusCode: 301 },
-				{ from: '^/firefox', to: downloads.firefox, statusCode: 301 },
-				{ from: '^/opera', to: downloads.opera, statusCode: 301 },
-			],
-		],
-		[
-			'@nuxtjs/robots',
-			{
-				UserAgent: '*',
-				Disallow: '',
-			},
-		],
-		[
-			'@nuxtjs/pwa',
-			{
-				meta: {
-					favicon: true,
-					name: titleFull,
-					description: description,
-					lang: 'en',
-					theme_color: '#212121',
-				},
-				manifest: {
-					name: title,
-					short_name: title,
-					description: description,
-					lang: 'en',
-					start_url: '/',
-					display: 'standalone',
-					orientation: 'portrait',
-					background_color: '#212121',
-					theme_color: '#212121',
-				},
-				icon: {
-					sizes: [16, 128, 144, 152, 192, 256, 512],
-				},
-			},
-		],
+		'@nuxtjs/markdownit',
+		'@nuxtjs/redirect-module',
+		'@nuxtjs/robots',
+		'@nuxtjs/pwa',
 		'nuxt-svg-loader',
 		'vue-scrollto/nuxt',
 	],
+
+	// Vuetify module configuration
+	vuetify: {
+		theme: {
+			dark: false,
+			themes: {
+				light: {
+					primary: '#111111',
+					secondary: '#161616',
+					info: '#0076FF',
+					success: '#2CBE4E',
+					error: '#FF0000',
+				},
+			},
+		},
+	},
+
+	// Markdown module configuration
+	markdownit: {
+		injected: true,
+	},
+
+	// Redirect module routes
+	redirect: [
+		{ from: '^/chrome', to: downloads.chrome, statusCode: 301 },
+		{ from: '^/firefox', to: downloads.firefox, statusCode: 301 },
+		{ from: '^/opera', to: downloads.opera, statusCode: 301 },
+	],
+	
+	// Robots.txt module configuration
+	robots: {
+		UserAgent: '*',
+		Disallow: '',
+	},
+	
+	// Progressive Web App configuration
+	pwa: {
+		meta: {
+			favicon: true,
+			name: fullTitle,
+			description: app.description,
+			lang: 'en',
+			theme_color: '#212121',
+		},
+		manifest: {
+			name: app.title,
+			short_name: app.title,
+			description: app.description,
+			lang: 'en',
+			start_url: '/',
+			display: 'standalone',
+			orientation: 'portrait',
+			background_color: '#212121',
+			theme_color: '#212121',
+		},
+		icon: {
+			sizes: [16, 128, 144, 152, 192, 256, 512],
+		},
+	}
 };

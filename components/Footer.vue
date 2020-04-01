@@ -4,33 +4,26 @@
 			<v-card-title class="primary">
 				<v-spacer />
 
-				<v-btn dark flat large round to="/" aria-label="Home">
+				<v-btn class="mx-2" dark text large rounded to="/" aria-label="Home">
 					<IconHome />
 				</v-btn>
-				<v-btn dark flat large round to="/faq" aria-label="FAQ">
+				<v-btn class="mx-2" dark text large rounded to="/faq" aria-label="FAQ">
 					<IconFAQ />
 				</v-btn>
-				<v-btn dark flat large round to="/releases" aria-label="Releases">
+				<v-btn class="mx-2" dark text large rounded to="/releases" aria-label="Releases">
 					<IconReleaseNotes />
 				</v-btn>
-				<v-btn dark flat large round href="https://github.com/tdemapp" aria-label="GitHub">
+				<v-btn class="mx-2" dark text large rounded href="https://github.com/tdemapp" aria-label="GitHub">
 					<IconGitHub />
 				</v-btn>
-				<v-btn
-					dark
-					flat
-					large
-					round
-					href="https://twitter.com/nurodev"
-					aria-label="Twitter"
-				>
+				<v-btn class="mx-2" dark text large rounded href="https://twitter.com/nurodev" aria-label="Twitter">
 					<IconTwitter />
 				</v-btn>
 
 				<v-spacer />
 			</v-card-title>
 
-			<v-card-actions class="black justify-center">
+			<v-card-actions class="black justify-center text-spaced">
 				<DialogDisclaimer />
 
 				<v-spacer />&copy;2019 —

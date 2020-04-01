@@ -1,5 +1,5 @@
 <template>
-	<Section dark id="dashboard">
+	<Section dark id="oss">
 		<template slot="content">
 			<v-flex xs12 sm12 md8>
 				<v-card
@@ -12,13 +12,13 @@
 			</v-flex>
 			<v-flex xs12 sm12 md4>
 				<v-card dark class="elevation-0 transparent" data-aos="fade-left">
-					<v-card-text primary-title class="text-xs-center">
-						<IconDashboard width="64px" height="64px" />
-						<div class="display-3 text-xs-center font-weight-black text-uppercase my-2">
-							Dashboard
+					<v-card-text primary-title class="text-center">
+						<IconOSS width="64px" height="64px" />
+						<div class="display-3 text-center font-weight-black text-uppercase">
+							Open Source
 						</div>
 						<div
-							class="caption text-spaced text-xs-center text-uppercase font-weight-thin"
+							class="caption text-spaced text-center text-uppercase font-weight-thin"
 						>
 							Section subheading text goes here
 						</div>
@@ -36,12 +36,12 @@
 </template>
 
 <script>
-import IconDashboard from '~/static/icons/dashboard.svg';
+import IconOSS from '~/static/icons/oss.svg';
 import Section from '~/components/Section';
 
 export default {
 	components: {
-		IconDashboard,
+		IconOSS,
 		Section,
 	},
 };
