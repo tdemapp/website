@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "website",
   "alias": "tailwind.tdem.app",
   "public": true,
   "github": {
