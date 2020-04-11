@@ -26,3 +26,5 @@ sw.*
 # MacOS DS Store file
 .DS_Store
 
+# Zeit now
+.now/
