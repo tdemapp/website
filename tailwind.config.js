@@ -19,7 +19,7 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: colors.rose,
+				primary: colors.lightBlue,
 				rose: colors.rose,
 			}
 		}
