@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
 	darkMode: 'class',
 	future: {
@@ -6,9 +8,20 @@ module.exports = {
 		removeDeprecatedGapUtilities: true,
 		standardFontWeights: true,
 	},
-	plugins: [require('@tailwindcss/aspect-ratio')],
+	plugins: [
+		require('@tailwindcss/aspect-ratio'),
+		require('@tailwindcss/forms'),
+	],
 	purge: {
 		enabled: process.env.NODE_ENV === 'production',
 		content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+	},
+	theme: {
+		extend: {
+			colors: {
+				primary: colors.rose,
+				rose: colors.rose,
+			}
+		}
 	},
 };

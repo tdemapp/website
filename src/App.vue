@@ -1,19 +1,30 @@
 <template>
-	<img alt="Vue logo" src="./assets/logo.png" class="mx-auto m-8" />
-	<HelloWorld msg="Hello Vue 3 + Vite" />
+	<div class="bg-grey-50">
+		<main>
+			<Banner :enabled="true" />
+			<Hero />
+			<Features />
+			<CTA />
+		</main>
+
+		<Footer />
+	</div>
 </template>
 
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue';
+import Banner from './components/Banner.vue';
+import CTA from './components/CTA.vue';
+import Features from './components/Features.vue';
+import Footer from './components/Footer.vue';
+import Hero from './components/Hero.vue';
 </script>
 
-<style lang="postcss">
+<style lang='postcss'>
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 #app {
-	@apply mt-64 antialiased text-center text-gray-700;
-	font-family: Avenir, Helvetica, Arial, sans-serif;
+	@apply antialiased;
 }
 </style>
