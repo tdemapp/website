@@ -11,7 +11,7 @@
 import Footer from './components/Footer.vue';
 </script>
 
-<style lang='postcss'>
+<style lang="postcss">
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
