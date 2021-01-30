@@ -34,7 +34,7 @@
 						<div class="mt-4 sm:mt-0 sm:ml-3">
 							<button
 								type="submit"
-								class="block w-full rounded-md border border-transparent px-5 py-3 bg-primary-500 uppercase tracking-widest text-base font-medium text-white shadow hover:bg-primary-600 transition ease-in-out duration-300 focus:outline-none focus:ring-4 focus:ring-primary-500 focus:ring-opacity-50 sm:px-10"
+								class="block w-full rounded-md border border-transparent px-5 py-3 bg-primary-500 uppercase tracking-widest text-base font-medium text-white shadow hover:bg-primary-600 transition ease-in-out duration-300 focus:outline-none focus:ring-4 focus:ring-primary-500 focus:ring-opacity-50 focus:ring-offset-2 sm:px-10"
 							>
 								Download
 							</button>
