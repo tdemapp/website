@@ -33,59 +33,33 @@
 				<rect width="404" height="392" fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)" />
 			</svg>
 		</div>
-		<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+		<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8" data-aos="fade-up" data-aos-easing="ease-in-out-back">
 			<div
-				class="relative rounded-2xl px-6 py-10 bg-primary-500 overflow-hidden shadow-xl sm:px-12 sm:py-20"
+				class="relative rounded-2xl bg-primary-500 overflow-hidden shadow-xl lg:grid lg:grid-cols-2 lg:gap-4"
 			>
-				<div aria-hidden="true" class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
-					<svg
-						class="absolute inset-0 h-full w-full"
-						preserveAspectRatio="xMidYMid slice"
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 1463 360"
-					>
-						<path
-							class="text-primary-400 text-opacity-40"
-							fill="currentColor"
-							d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z"
-						/>
-						<path
-							class="text-primary-600 text-opacity-40"
-							fill="currentColor"
-							d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z"
-						/>
-					</svg>
-				</div>
-				<div class="relative">
-					<div class="sm:text-center">
-						<h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-							Get notified when we&rsquo;re launching.
+				<div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+					<div class="lg:self-center">
+						<h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+							<span class="block">Ready to dive in?</span>
+							<span class="block">Start your free trial today.</span>
 						</h2>
-						<p class="mt-6 mx-auto max-w-2xl text-lg text-primary-100">
-							Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna
-							sed consectetur neque tristique pellentesque.
+						<p class="mt-4 text-lg leading-6 text-indigo-200">
+							Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
+							Malesuada adipiscing sagittis vel nulla nec.
 						</p>
+						<a
+							href="#"
+							class="mt-8 bg-white border border-transparent rounded-md shadow px-6 py-3 inline-flex items-center text-base font-medium text-primary-600 hover:bg-primary-50"
+							>Sign up for free</a
+						>
 					</div>
-					<form action="#" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
-						<div class="min-w-0 flex-1">
-							<label for="cta_email" class="sr-only">Email address</label>
-							<input
-								id="cta_email"
-								type="email"
-								class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 transition ease-in-out duration-300 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500"
-								placeholder="Enter your email"
-							/>
-						</div>
-						<div class="mt-4 sm:mt-0 sm:ml-3">
-							<button
-								type="submit"
-								class="block w-full rounded-md border border-transparent px-5 py-3 transition ease-in-out duration-300 bg-gray-800 text-base font-medium text-white shadow hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10"
-							>
-								Notify me
-							</button>
-						</div>
-					</form>
+				</div>
+				<div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
+					<img
+						class="transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
+						src="https://tailwindui.com/img/component-images/full-width-with-sidebar.jpg"
+						alt="App screenshot"
+					/>
 				</div>
 			</div>
 		</div>
