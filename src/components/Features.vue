@@ -18,7 +18,7 @@
 							<div class="-mt-6">
 								<div>
 									<span
-										class="inline-flex items-center justify-center p-3 bg-primary-500 rounded-md shadow-lg"
+										class="inline-flex items-center justify-center p-4 bg-primary-500 rounded-full shadow-lg"
 									>
 										<svg
 											class="h-6 w-6 text-white"
@@ -57,7 +57,7 @@
 							<div class="-mt-6">
 								<div>
 									<span
-										class="inline-flex items-center justify-center p-3 bg-primary-500 rounded-md shadow-lg"
+										class="inline-flex items-center justify-center p-4 bg-primary-500 rounded-full shadow-lg"
 									>
 										<svg
 											class="h-6 w-6 text-white"
@@ -99,7 +99,7 @@
 							<div class="-mt-6">
 								<div>
 									<span
-										class="inline-flex items-center justify-center p-3 bg-primary-500 rounded-md shadow-lg"
+										class="inline-flex items-center justify-center p-4 bg-primary-500 rounded-full shadow-lg"
 									>
 										<svg
 											class="h-6 w-6 text-white"
@@ -137,7 +137,7 @@
 							<div class="-mt-6">
 								<div>
 									<span
-										class="inline-flex items-center justify-center p-3 bg-primary-500 rounded-md shadow-lg"
+										class="inline-flex items-center justify-center p-4 bg-primary-500 rounded-full shadow-lg"
 									>
 										<svg
 											class="h-6 w-6 text-white"
@@ -173,7 +173,7 @@
 							<div class="-mt-6">
 								<div>
 									<span
-										class="inline-flex items-center justify-center p-3 bg-primary-500 rounded-md shadow-lg"
+										class="inline-flex items-center justify-center p-4 bg-primary-500 rounded-full shadow-lg"
 									>
 										<svg
 											class="h-6 w-6 text-white"
@@ -210,7 +210,7 @@
 							<div class="-mt-6">
 								<div>
 									<span
-										class="inline-flex items-center justify-center p-3 bg-primary-500 rounded-md shadow-lg"
+										class="inline-flex items-center justify-center p-4 bg-primary-500 rounded-full shadow-lg"
 									>
 										<svg
 											class="h-6 w-6 text-white"
