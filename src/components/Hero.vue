@@ -51,6 +51,8 @@
 				<div class="hidden sm:block">
 					<div
 						class="absolute inset-y-0 left-1/2 w-screen bg-gray-50 rounded-l-3xl lg:left-80 lg:right-0 lg:w-full"
+						data-aos="zoom-in"
+						data-aos-easing="ease-in-out-back"
 					></div>
 					<svg
 						class="absolute top-8 right-1/2 -mr-3 lg:m-0 lg:left-0"
