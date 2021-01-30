@@ -8,7 +8,17 @@
 </template>
 
 <script setup lang="ts">
+import AOS from 'aos';
+
 import Footer from './components/Footer.vue';
+
+import 'aos/dist/aos.css';
+
+AOS.init({
+	duration: 1000,
+	easing: 'ease-in-out-sin',
+	once: true,
+});
 </script>
 
 <style lang="postcss">

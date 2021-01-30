@@ -13,7 +13,7 @@
 			</p>
 			<div class="mt-12">
 				<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-					<div class="pt-6">
+					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back">
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>
@@ -52,7 +52,7 @@
 						</div>
 					</div>
 
-					<div class="pt-6">
+					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="100">
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>
@@ -94,7 +94,7 @@
 						</div>
 					</div>
 
-					<div class="pt-6">
+					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="150">
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>
@@ -132,7 +132,7 @@
 						</div>
 					</div>
 
-					<div class="pt-6">
+					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="200">
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>
@@ -168,7 +168,7 @@
 						</div>
 					</div>
 
-					<div class="pt-6">
+					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="250">
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>
@@ -205,7 +205,7 @@
 						</div>
 					</div>
 
-					<div class="pt-6">
+					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="300">
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>
