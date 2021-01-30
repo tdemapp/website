@@ -57,7 +57,8 @@ import { defineProps, ref } from 'vue';
 
 const props = defineProps({
 	enabled: {
-		required: true,
+		default: false,
+		required: false,
 		type: Boolean,
 	},
 });

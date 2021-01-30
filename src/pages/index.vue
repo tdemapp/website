@@ -1,5 +1,5 @@
 <template>
-	<Banner :enabled="true" />
+	<Banner />
 	<Hero />
 	<Features />
 	<CTA />
