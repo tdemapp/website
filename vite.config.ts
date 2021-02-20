@@ -1,12 +1,12 @@
 import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
 import Pages from 'vite-plugin-pages';
-import { ViteSplitbee } from 'vite-plugin-splitbee';
+import Splitbee from 'vite-plugin-splitbee';
+import Vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
 	plugins: [
 		Pages(),
-		ViteSplitbee(),
-		vue(),
+		Splitbee(),
+		Vue(),
 	],
 });
