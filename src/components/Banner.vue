@@ -38,8 +38,14 @@
 
 <script setup lang="ts">
 import { useStorage } from '@vueuse/core';
+import splitbee from '@splitbee/web';
 
 const enabled = useStorage('show-banner', true);
 
-const toggleEnabled = () => (enabled.value = !enabled.value);
+const toggleEnabled = () => {
+	splitbee.track('Banner Closed', {
+		show_banner: enabled.value,
+	});
+	enabled.value = !enabled.value;
+};
 </script>

@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import Components from 'vite-plugin-components'
 import Icons, { ViteIconsResolver } from 'vite-plugin-icons';
 import Pages from 'vite-plugin-pages';
-import Splitbee from 'vite-plugin-splitbee';
 import Vue from '@vitejs/plugin-vue';
 import WindiCSS from 'vite-plugin-windicss';
 
@@ -17,7 +16,6 @@ export default defineConfig({
 		}),
 		Icons(),
 		Pages(),
-		Splitbee(),
 		Vue(),
 		WindiCSS({
 			config: {
