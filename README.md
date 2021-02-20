@@ -5,7 +5,7 @@
   </a>
 
   [![License](https://img.shields.io/badge/-mit-blue.svg?longCache=true&style=for-the-badge)](https://github.com/tdemapp/website/blob/master/LICENSE) 
-  [![Vercel](https://img.shields.io/badge/-vercel-black.svg?logo=vercel&longCache=true&style=for-the-badge)](https://vercel.com/home?utm_source=tdem&utm_campaign=oss) 
+  [![Vercel](https://img.shields.io/badge/-powered%20by%20vercel-black.svg?logo=vercel&longCache=true&style=for-the-badge)](https://vercel.com/home?utm_source=tdem&utm_campaign=oss) 
 
   <br />
 </div>
