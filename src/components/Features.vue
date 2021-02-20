@@ -52,7 +52,12 @@
 						</div>
 					</div>
 
-					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="100">
+					<div
+						class="pt-6"
+						data-aos="zoom-in"
+						data-aos-easing="ease-in-out-back"
+						data-aos-delay="100"
+					>
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>
@@ -94,7 +99,12 @@
 						</div>
 					</div>
 
-					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="150">
+					<div
+						class="pt-6"
+						data-aos="zoom-in"
+						data-aos-easing="ease-in-out-back"
+						data-aos-delay="150"
+					>
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>
@@ -132,7 +142,12 @@
 						</div>
 					</div>
 
-					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="200">
+					<div
+						class="pt-6"
+						data-aos="zoom-in"
+						data-aos-easing="ease-in-out-back"
+						data-aos-delay="200"
+					>
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>
@@ -168,7 +183,12 @@
 						</div>
 					</div>
 
-					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="250">
+					<div
+						class="pt-6"
+						data-aos="zoom-in"
+						data-aos-easing="ease-in-out-back"
+						data-aos-delay="250"
+					>
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>
@@ -205,7 +225,12 @@
 						</div>
 					</div>
 
-					<div class="pt-6" data-aos="zoom-in" data-aos-easing="ease-in-out-back" data-aos-delay="300">
+					<div
+						class="pt-6"
+						data-aos="zoom-in"
+						data-aos-easing="ease-in-out-back"
+						data-aos-delay="300"
+					>
 						<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
 							<div class="-mt-6">
 								<div>

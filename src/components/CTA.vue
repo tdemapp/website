@@ -1,7 +1,11 @@
 <template>
 	<div class="relative sm:py-16">
 		<div aria-hidden="true" class="hidden sm:block">
-			<div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl" data-aos="zoom-in" data-aos-easing="ease-in-out-back" />
+			<div
+				class="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl"
+				data-aos="zoom-in"
+				data-aos-easing="ease-in-out-back"
+			/>
 			<svg
 				class="absolute top-8 left-1/2 -ml-3"
 				width="404"
@@ -33,7 +37,11 @@
 				<rect width="404" height="392" fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)" />
 			</svg>
 		</div>
-		<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8" data-aos="fade-up" data-aos-easing="ease-in-out-back">
+		<div
+			class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"
+			data-aos="fade-up"
+			data-aos-easing="ease-in-out-back"
+		>
 			<div
 				class="relative rounded-2xl bg-primary-500 overflow-hidden shadow-xl lg:grid lg:grid-cols-2 lg:gap-4"
 			>
