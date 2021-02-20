@@ -20,6 +20,7 @@
 		"useTabs": true
 	},
 	"dependencies": {
+		"@vueuse/core": "^4.2.0-beta.2",
 		"aos": "^2.3.4",
 		"vue": "^3.0.5",
 		"vue-router": "4.0.3"

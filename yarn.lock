@@ -477,6 +477,21 @@
     vscode-languageserver-textdocument "^1.0.1"
     vscode-uri "^2.1.2"
 
+"@vueuse/core@^4.2.0-beta.2":
+  version "4.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-4.2.0-beta.2.tgz#2b3dbb33980ba8ed6c3dc1596d78e1bf2d3eb6c3"
+  integrity sha512-7+qduqlJABs28TTiMLKa3wow88c/+C23Aa9klmoN70L3R7GSqxGTr3CaAy56/LZ+dnHmdx4DHrtAmRu0988XNQ==
+  dependencies:
+    "@vueuse/shared" "4.2.0-beta.2"
+    vue-demi latest
+
+"@vueuse/shared@4.2.0-beta.2":
+  version "4.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-4.2.0-beta.2.tgz#1de8e7168ed76625764b1e6c6e2dba59575e68d0"
+  integrity sha512-j/5yUtFYi6c3R5xSKOjIQb4lU4sFfxyptcNdan+TikjRO9jGS8nvtrFMieoPhjYbKxwsDhjwI43XjjV5SkRyNQ==
+  dependencies:
+    vue-demi latest
+
 "@windicss/plugin-utils@0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.4.3.tgz#84e85fd3cd6eaf54ca72cae276f9cf0610f45e56"
@@ -1525,6 +1540,11 @@ vscode-web-custom-data@^0.3.2:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/vscode-web-custom-data/-/vscode-web-custom-data-0.3.3.tgz#9e1f2388c718d6f190038a19d144834a436b876f"
   integrity sha512-orMjjj1r4efP5ocODYZm3orpANakRBsxPZPDoD5UIrFOPKDFtMJQLp6PIH1rb3AYVRD1iYXMhDQoC6tZ+DrigA==
+
+vue-demi@latest:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.6.0.tgz#e314282f704cb449119b9fd002cbbc0e39f591fe"
+  integrity sha512-8GEJa0mHJpYJeGeq5fD1pJct2kfdl30PHfmL1NaJ97mgKPyKojlIRt/3inGBK4Y0ylCI6T5vOo3chwpqDOq/Hw==
 
 vue-router@4.0.3, vue-router@^4.0.3:
   version "4.0.3"

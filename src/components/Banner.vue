@@ -37,17 +37,9 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref } from 'vue';
+import { useStorage } from '@vueuse/core';
 
-const props = defineProps({
-	enabled: {
-		default: true,
-		required: false,
-		type: Boolean,
-	},
-});
-
-const enabled = ref(props.enabled);
+const enabled = useStorage('show-banner', true);
 
 const toggleEnabled = () => (enabled.value = !enabled.value);
 </script>
