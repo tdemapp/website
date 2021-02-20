@@ -12,8 +12,6 @@ import AOS from 'aos';
 
 import Footer from './components/Footer.vue';
 
-import 'aos/dist/aos.css';
-
 AOS.init({
 	duration: 1000,
 	easing: 'ease-in-out-sin',
@@ -22,10 +20,6 @@ AOS.init({
 </script>
 
 <style lang="postcss">
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 #app {
 	@apply antialiased;
 }
